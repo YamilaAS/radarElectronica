@@ -18,12 +18,16 @@ body {
     padding: 0;
 }
 h1 {
-    font-weight: lighter;
-    letter-spacing: 0.8;
+    letter-spacing: 0.8em;
     font-size: 3rem;
     color: var(--dark-text-color);
     margin: 0;
 }
+
+h1 {
+    font-weight: lighter;
+}
+
 h1.headline {
     margin-top: 20%;
     font-size: 5rem;
