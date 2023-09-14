@@ -1,0 +1,1 @@
+/home/yami/.volta/bin/sass --watch sass/index.scss public/css/styles.css

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+
+//variables
+$color-principal: #1C3F60;
+$color-secundario: #365679;
+$color-fondo: #0B1320;
+$color-letras: #FFFFFF;
+
+
+body {
+  background: $color-fondo;
+  margin-bottom: auto;
+}
+
+*{
+  margin: 0;
+}
