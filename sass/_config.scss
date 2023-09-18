@@ -9,7 +9,8 @@ $color-letras: #FFFFFF;
 
 body {
   background: $color-fondo;
-  margin-bottom: auto;
+  color: $color-secundario;
+  font-family: "Poppins";
 }
 
 *{
