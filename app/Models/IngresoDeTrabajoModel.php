@@ -1,10 +1,10 @@
 <?php
 
-namespace Models;
+namespace app\Models;
 
 use CodeIgniter\Model;
 use function PHPUnit\Framework\isEmpty;
-class IngresoDeTrabajo extends Model {
+class IngresoDeTrabajoModel extends Model {
     protected $table = 'ingresoDeTrabajo';
     protected $allowedFields = [
         'aparato',
@@ -22,6 +22,16 @@ class IngresoDeTrabajo extends Model {
 
     public function __construct() {
         $this->db = \Config\Database::connect();
+    }
+
+    public function ingresarTrabajo($datosParaGuardar){
+        $ingresoDeTrabajo = $this->db->table('ingresoDeTrabajo');
+
+        if($ingresoDeTrabajo->insert($datosParaGuardar) && $this->affectedRows() >0){
+            return $this->db->insertID();
+        }else {
+            return false;
+        }
     }
 
 }

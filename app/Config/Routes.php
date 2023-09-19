@@ -9,7 +9,7 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 
 //Ingreso de Trabajo
-$routes->get('/ingresoDeTrabajo', 'FormularioIngresoDeTrabajo::formularioIngresoDeTrabajo');
-$routes->post('/guardar', 'FormularioIngresoDeTrabajo::guardar');
+$routes->get('/ingresoDeTrabajo', 'FormularioIngresoDeTrabajoController::formularioIngresoDeTrabajo');
+$routes->post('/guardar', 'FormularioIngresoDeTrabajoController::guardar');
 
 //Detalle de Orden de trabajo

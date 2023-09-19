@@ -2,9 +2,18 @@
 
 namespace App\Controllers;
 
-class FormularioIngresoDeTrabajo extends BaseController {
+use App\Models\IngresoDeTrabajoModel;
+
+
+
+class FormularioIngresoDeTrabajoController extends BaseController {
+    private IngresoDeTrabajoModel $ingresoDeTrabajoModel;
+    public function __construct(){
+        $this->ingresoDeTrabajoModel = new IngresoDeTrabajoModel;
+    }
 
     public function formularioIngresoDeTrabajo() {
+        $variable = 123;
         return view('formularioIngresoDeTrabajo');
     }
 
@@ -32,7 +41,11 @@ class FormularioIngresoDeTrabajo extends BaseController {
         );
 
         //modelo
+        $trabajo = $this->ingresoDeTrabajoModel->ingresarTrabajo($datosParaGuardar);
 
+        if($trabajo == false){
+            print_r('no se pudo guardar');
+        }
         return view('formularioDetalleDeOrden',   $datosParaGuardar);
     }
 
