@@ -9,7 +9,9 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 
 //Ingreso de Trabajo
-$routes->get('/ingresoDeTrabajo', 'FormularioIngresoDeTrabajoController::formularioIngresoDeTrabajo');
-$routes->post('/guardar', 'FormularioIngresoDeTrabajoController::guardar');
+$routes->get('/ingresoDeTrabajo', 'IngresoDeTrabajoController::verIngresoDeTrabajo');
+$routes->post('/ingresoDeTrabajo', 'IngresoDeTrabajoController::procesarIngresoDeTrabajo');
 
-//Detalle de Orden de trabajo
+// Detalle de Orden de Reparacion
+$routes->get('/ordenDeReparacion/(:num)', 'OrdenDeReparacionController::verOrdenDeReparacion/$1');
+$routes->get('/ordenDeReparacion/(:num)/contrato', 'OrdenDeReparacionController::verContratoOrdenDeReparacion/$1');

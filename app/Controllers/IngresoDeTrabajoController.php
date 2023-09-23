@@ -2,23 +2,22 @@
 
 namespace App\Controllers;
 
-use App\Models\IngresoDeTrabajoModel;
+use App\Models\OrdenDeReparacionModel;
+use App\Entities\OrdenDeReparacion;
 
-
-class FormularioIngresoDeTrabajoController extends BaseController {
-    private IngresoDeTrabajoModel $ingresoDeTrabajoModel;
+class IngresoDeTrabajoController extends BaseController {
+    private OrdenDeReparacionModel $ordenDeReparacionModel;
     protected $helpers = ['form'];
 
     public function __construct() {
-        $this->ingresoDeTrabajoModel = new IngresoDeTrabajoModel;
+        $this->ordenDeReparacionModel = new OrdenDeReparacionModel;
     }
 
-    public function formularioIngresoDeTrabajo() {
-        $variable = 123;
-        return view('formularioIngresoDeTrabajo');
+    public function verIngresoDeTrabajo() {
+        return view('vistaIngresoDeTrabajo');
     }
 
-    public function guardar() {
+    public function procesarIngresoDeTrabajo() {
         $validacion = service('validation');
         $validacion->setRules([
             'aparato' => [
@@ -125,13 +124,16 @@ class FormularioIngresoDeTrabajoController extends BaseController {
             'senia' => $senia
         );
 
-        //modelo
-        $trabajo = $this->ingresoDeTrabajoModel->ingresarTrabajo($datosParaGuardar);
+        $ordenDeReparacion = new OrdenDeReparacion();
+        $ordenDeReparacion->fill($datosParaGuardar);
 
-        if ($trabajo == false) {
-            print_r('no se pudo guardar');
+        try {
+            $idNuevaOrdenDeReparacion = $this->ordenDeReparacionModel->insert($ordenDeReparacion);
+            return redirect()->to('/ordenDeReparacion/' . $idNuevaOrdenDeReparacion);
+        } catch (\ReflectionException $e) {
+            throw $e;
         }
-        return view('formularioDetalleDeOrden', $datosParaGuardar);
+
     }
 
 }

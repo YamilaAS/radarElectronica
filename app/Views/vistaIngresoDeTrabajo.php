@@ -1,5 +1,5 @@
 <?php validation_list_errors(); ?>
-<form action="<?php echo base_url('/guardar') ?>" method="post">
+<form action="<?php echo base_url('/ingresoDeTrabajo') ?>" method="post">
     <div class="form-group row">
         <label for="aparato" class="col-sm-2 col-form-label">Aparato</label>
         <div class="col-sm-10">
