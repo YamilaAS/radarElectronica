@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="/css/styles.css" />
-</head>
-<body>
-hola yami
-</body>
-</html>
+<?= $this->extend('templates/main.php'); ?>
+
+<?= $this->section('title') ?>Inicio<?= $this->endSection('title') ?>
+
+<?= $this->section('contenido') ?>
+    <h1>Hola yami estas en el inicio </h1>
+<?= $this->endSection('contenido') ?>

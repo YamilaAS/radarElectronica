@@ -1,4 +1,10 @@
 <?php validation_list_errors(); ?>
+
+<?= $this->extend('templates/main.php'); ?>
+
+<?= $this->section('title') ?>Ingreso de Trabajo<?= $this->endSection('title') ?>
+
+<?= $this->section('contenido') ?>
 <form action="<?php echo base_url('/ingresoDeTrabajo') ?>" method="post">
     <div class="form-group row">
         <label for="aparato" class="col-sm-2 col-form-label">Aparato</label>
@@ -68,3 +74,5 @@
         <button type="submit" class="btn btn-primary btn-block ">Registrar</button>
     </div>
 </form>
+
+<?= $this->endSection('contenido') ?>
