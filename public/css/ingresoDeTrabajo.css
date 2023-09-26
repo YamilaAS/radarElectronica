@@ -19,6 +19,12 @@
 }
 
 .btnRegistrar {
+    background: var(--color-principal);
+    margin-top: 20px;
+    border: var(--color-principal);
+}
+
+.btnRegistrar:hover {
     background: var(--color-secundario);
 }
 
