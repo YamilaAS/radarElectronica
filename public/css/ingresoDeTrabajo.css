@@ -1,0 +1,39 @@
+
+.formulario {
+    margin: 0 auto;
+    width: 500px;
+    padding: 30px;
+    color: var(--color-letras);
+    font-family: Poppins;
+}
+
+.titulo {
+    padding: 10px 0 30px 0;
+}
+
+.form-control-plaintext {
+    background: var(--color-secundario);
+   /* border-radius: 5px;*/
+    color: var(--color-letras);
+    margin-left: 60px;
+}
+
+.btnRegistrar {
+    background: var(--color-secundario);
+}
+
+.error {
+    color:#DB4239;
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+

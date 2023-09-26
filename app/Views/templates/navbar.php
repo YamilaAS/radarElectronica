@@ -12,7 +12,7 @@
         </ul>
     </nav>
 
-    <div class="container">
+    <div class="buscadorRapido">
         <form>
             <input class="inputBuscador" type="text" placeholder="Buscador rápido">
             <button class="btnBuscar"><img class="imgLupa" src="/img/lupaBlanca.png"></img></button>
