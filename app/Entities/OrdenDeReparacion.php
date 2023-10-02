@@ -23,4 +23,5 @@ class OrdenDeReparacion extends Entity
         'fechaIngreso' => 'datetime',
         'fechaModificacion'  => 'datetime',
     ];
+
 }

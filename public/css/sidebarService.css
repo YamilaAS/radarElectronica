@@ -1,0 +1,26 @@
+.sidebar {
+    position: absolute;
+    background: var(--color-principal);
+    color: var(--color-letras);
+    width: 100%;
+    max-width: 250px;
+    height: 90vh;
+}
+
+.tituloService {
+    color: var(--color-letras);
+    padding: 50px 20px 10px 20px;
+    font-family: "Poppins";
+}
+
+.itmesService {
+    display: block;
+    text-decoration: none;
+    color: var(--color-letras);
+    padding: 10px 20px 10px 20px;
+}
+
+.itmesService:hover{
+    background: var(--color-secundario);
+    color: var(--color-letras);
+}

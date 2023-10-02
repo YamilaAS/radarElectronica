@@ -1,0 +1,38 @@
+.contenedorDetalleDeOrdenDeTrabajo {
+    display: flex;
+}
+.sidebarService{}
+
+.detalleDeOrdenDeReparacion {
+    margin: 0 auto;
+    /*width: 700px;*/
+    padding: 30px;
+    color: var(--color-letras);
+    font-family: Poppins;
+}
+
+
+.tituloDetalleDeOrden {
+    padding: 10px 0 30px 0;
+}
+
+.labelVariable {
+   /* margin-left: 60px;*/
+    width: 500px;
+}
+
+.labelNombre {
+    font-family: "Poppins";/*poner en bol*/
+    padding: 10px 0 ;
+
+}
+
+.btnImprimir {
+    background: var(--color-principal);
+    margin-top: 20px;
+    border: var(--color-principal);
+}
+
+.btnImprimir:hover {
+    background: var(--color-secundario);
+}
