@@ -4,6 +4,7 @@
 @import "ingresoDeTrabajo.css";
 @import "detalleDeOrdenDeReparacion.css";
 @import "sidebarService.css";
+@import "informeDeReparacion.css";
 
 :root {
     --color-principal: #1C3F60;

@@ -15,3 +15,7 @@ $routes->post('/ingresoDeTrabajo', 'IngresoDeTrabajoController::procesarIngresoD
 // Detalle de Orden de Reparacion
 $routes->get('/ordenDeReparacion/(:num)', 'OrdenDeReparacionController::verOrdenDeReparacion/$1');
 $routes->get('/ordenDeReparacion/(:num)/contrato', 'OrdenDeReparacionController::verContratoOrdenDeReparacion/$1');
+
+
+//Informe de Reparación
+$routes->get('/informeDeReparacion/(:num)', 'InformeDeReparacionController::verInformeDeReparacion/$1');

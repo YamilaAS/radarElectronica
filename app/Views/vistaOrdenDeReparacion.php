@@ -4,12 +4,6 @@
 
 <?= $this->section('contenido') ?>
 
-
-<?php
-// var_dump($ordenDeReparacion);
-//var_dump($linkContrato);
-
-?>
     <div class="contenedorDetalleDeOrdenDeTrabajo">
 
         <div class="sidebarService">
@@ -97,7 +91,7 @@
                            class="col-sm-2 col-form-label labelVariable">$ <?= $ordenDeReparacion->senia ?></label>
                 </div>
             </div>
-        <!--
+            <!--
             <div class="d-grid gap-2 d-flex justify-content-start">
                 <a type="submit" class="btn btn-primary btn-block btnImprimir" href="<?= $linkContrato ?>"
                    target="_blank">Imprimir Contrato</a>

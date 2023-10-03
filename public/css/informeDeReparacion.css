@@ -1,0 +1,28 @@
+.contenedorInformeDeReparacion {
+    display: flex;
+}
+
+.informeDeReparacion {
+    margin: 0 auto;
+    /*width: 700px;*/
+    padding: 30px;
+    color: var(--color-letras);
+    font-family: Poppins;
+}
+
+.tituloinformeDeReparacion {
+    padding: 10px 0 10px 0;
+}
+
+
+.labelVariable {
+    margin-left: 60px;
+}
+
+.importe{
+    margin-top: 10px;
+}
+
+.inputForm{
+    width: 300px;
+}
