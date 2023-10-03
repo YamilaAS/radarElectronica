@@ -20,19 +20,11 @@
         <div class="tituloinformeDeReparacion">
             <h1>Informe de Reparación</h1>
         </div>
-
         <div class="form-group row">
             <label for="" class="col-sm-2 col-form-label ">Orden</label>
             <div class="col-sm-10">
                 <label for="orden"
                        class="col-sm-2 col-form-label labelVariable"><?= $ordenDeReparacion->id ?></label>
-            </div>
-        </div>
-        <div class="form-group row">
-            <label for="" class="col-sm-2 col-form-label ">Ingreso</label>
-            <div class="col-sm-10">
-                <label for="fechaIngreso" type="date"
-                       class="col-sm-2 col-form-label labelVariable"><?= $ordenDeReparacion->fechaIngreso->format("d/m/Y") ?></label>
             </div>
         </div>
         <div class="form-group row">
@@ -71,35 +63,15 @@
             </div>
         </div>
         <div class="form-group row">
-            <label for="domicilio" class="col-sm-2 col-form-label ">Domicilio</label>
-            <div class="col-sm-10">
-                <label for="domicilio"
-                       class="col-sm-2 col-form-label labelVariable"><?= $ordenDeReparacion->domicilio ?></label>
-            </div>
-        </div>
-        <div class="form-group row">
-            <label for="telefono" class="col-sm-2 col-form-label ">Teléfono</label>
-            <div class="col-sm-10">
-                <label for="telefono"
-                       class="col-sm-2 col-form-label labelVariable"><?= $ordenDeReparacion->telefono ?></label>
-            </div>
-        </div>
-        <div class="form-group row">
             <label for="sintoma" class="col-sm-2 col-form-label ">Síntoma</label>
             <div class="col-sm-10">
                 <label for="sintoma"
                        class="col-sm-2 col-form-label labelVariable"><?= $ordenDeReparacion->sintoma ?></label>
             </div>
         </div>
-        <div class="form-group row">
-            <label for="senia" class="col-sm-2 col-form-label ">Seña</label>
-            <div class="col-sm-10">
-                <label for="senia"
-                       class="col-sm-2 col-form-label labelVariable">$ <?= $ordenDeReparacion->senia ?></label>
-            </div>
-        </div>
 
         <hr/>
+
         <form  action="<?php echo base_url('/ingresoDeInformeDeReparacion') ?>" method="post" >
             <div class="form-group row">
                 <label for="detalle" class="col-sm-2 col-form-label">Detalle</label>
