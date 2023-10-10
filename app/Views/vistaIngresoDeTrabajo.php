@@ -40,10 +40,17 @@
             </div>
         </div>
         <div class="form-group row">
-            <label for="titular" class="col-sm-2 col-form-label">Titular</label>
+            <label for="apellido" class="col-sm-2 col-form-label">Apellido</label>
             <div class="col-sm-10">
-                <input name="titular" class="form-control-plaintext" id="titular" value="<?php echo set_value('titular') ?>">
-                <p class="error"><?php echo validation_show_error('titular'); ?></p>
+                <input name="apellido" class="form-control-plaintext" id="apellido" value="<?php echo set_value('apellido') ?>">
+                <p class="error"><?php echo validation_show_error('apellido'); ?></p>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="nombre" class="col-sm-2 col-form-label">Nombre</label>
+            <div class="col-sm-10">
+                <input name="nombre" class="form-control-plaintext" id="nombre" value="<?php echo set_value('nombre') ?>">
+                <p class="error"><?php echo validation_show_error('nombre'); ?></p>
             </div>
         </div>
         <div class="form-group row">

@@ -2,7 +2,7 @@
 .formulario {
     margin: 0 auto;
     width: 500px;
-    padding: 30px;
+    padding: 10px;
     color: var(--color-letras);
     font-family: Poppins;
 }
@@ -20,7 +20,7 @@
 
 .btnRegistrar {
     background: var(--color-principal);
-    margin-top: 20px;
+    margin-top: 10px;
     border: var(--color-principal);
 }
 

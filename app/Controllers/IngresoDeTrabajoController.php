@@ -112,6 +112,8 @@ class IngresoDeTrabajoController extends BaseController {
         $sintoma = (string)$this->request->getPost('sintoma');
         $senia = (float)$this->request->getPost('senia');
 
+
+
         $datosParaGuardar = array(
             'aparato' => $aparato,
             'marca' => $marca,
