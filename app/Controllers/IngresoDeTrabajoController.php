@@ -55,7 +55,16 @@ class IngresoDeTrabajoController extends BaseController {
                     'regex_match' => 'Solo puede ingresar letras, espacio, acento y números'
                 ],
             ],
-            'titular' => [
+            'apellido' => [
+                'rules' => 'required|regex_match[/^[a-zñáéíóúüA-ZÑÁÉÍÓÚÜ ]*$/u]|min_length[1]|max_length[100]',
+                'errors' => [
+                    'required' => 'El campo nombre del titular es obligatorio',
+                    'min_length' => 'La longitud mínima  es 1',
+                    'max_length' => 'La longitud máxima es 100',
+                    'regex_match' => 'Solo puede ingresar letras, espacio y acento'
+                ],
+            ],
+            'nombre' => [
                 'rules' => 'required|regex_match[/^[a-zñáéíóúüA-ZÑÁÉÍÓÚÜ ]*$/u]|min_length[1]|max_length[100]',
                 'errors' => [
                     'required' => 'El campo nombre del titular es obligatorio',
@@ -106,20 +115,20 @@ class IngresoDeTrabajoController extends BaseController {
         $marca = (string)$this->request->getPost('marca');
         $modelo = (string)$this->request->getPost('modelo');
         $accesorios = (string)$this->request->getPost('accesorios');
-        $titular = (string)$this->request->getPost('titular');
+        $apellido = (string)$this->request->getPost('apellido');
+        $nombre = (string)$this->request->getPost('nombre');
         $domicilio = (string)$this->request->getPost('domicilio');
         $telefono = (int)$this->request->getPost('telefono');
         $sintoma = (string)$this->request->getPost('sintoma');
         $senia = (float)$this->request->getPost('senia');
-
-
 
         $datosParaGuardar = array(
             'aparato' => $aparato,
             'marca' => $marca,
             'modelo' => $modelo,
             'accesorios' => $accesorios,
-            'titular' => $titular,
+            'apellido' => $apellido,
+            'nombre' => $nombre,
             'domicilio' => $domicilio,
             'telefono' => $telefono,
             'sintoma' => $sintoma,
