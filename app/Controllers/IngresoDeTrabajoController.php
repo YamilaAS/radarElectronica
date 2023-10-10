@@ -6,13 +6,18 @@ use App\Models\ClienteModel;
 use App\Entities\Cliente;
 use App\Models\OrdenDeReparacionModel;
 use App\Entities\OrdenDeReparacion;
+use CodeIgniter\Database\BaseConnection;
+use Config\Database;
+use function PHPUnit\Framework\isEmpty;
 
 class IngresoDeTrabajoController extends BaseController {
+    private BaseConnection $db;
     private OrdenDeReparacionModel $ordenDeReparacionModel;
     private ClienteModel $clienteModel;
     protected $helpers = ['form'];
 
     public function __construct() {
+        $this->db = Database::connect();
         $this->ordenDeReparacionModel = new OrdenDeReparacionModel;
         $this->clienteModel = new ClienteModel;
     }
@@ -132,37 +137,38 @@ class IngresoDeTrabajoController extends BaseController {
             'telefono' => $telefono
         );
 
+        $datosParaGuardarOrdenDeReparacion = array(
+            'aparato' => $aparato,
+            'marca' => $marca,
+            'modelo' => $modelo,
+            'accesorios' => $accesorios,
+            'sintoma' => $sintoma,
+            'senia' => $senia
+        );
+
+        $this->db->transStart();
+
         $cliente = new Cliente();
         $cliente->fill($datosParaGuardarCliente);
+        $idCliente = $this->clienteModel->insert($datosParaGuardarCliente);
 
-        try {
-            $idCliente = $this->clienteModel->insert($datosParaGuardarCliente);
+        if ($this->db->transFailure) {
+            $this->db->transRollback();
+            return "error insertando cliente";
+        } else {
+            $ordenDeReparacion = new OrdenDeReparacion();
+            $datosParaGuardarOrdenDeReparacion['idCliente'] = $idCliente;
+            $ordenDeReparacion->fill($datosParaGuardarOrdenDeReparacion);
+            $idNuevaOrdenDeReparacion = $this->ordenDeReparacionModel->insert($datosParaGuardarOrdenDeReparacion);
 
-            if(!empty($idCliente)) {
-                $datosParaGuardarOrdenDeReparacion = array(
-                    'aparato' => $aparato,
-                    'marca' => $marca,
-                    'modelo' => $modelo,
-                    'accesorios' => $accesorios,
-                    'sintoma' => $sintoma,
-                    'senia' => $senia,
-                    'idCliente' => $idCliente
-                );
-
-                $ordenDeReparacion = new OrdenDeReparacion();
-                $ordenDeReparacion->fill($datosParaGuardarOrdenDeReparacion);
-
-                try {
-                    $idNuevaOrdenDeReparacion = $this->ordenDeReparacionModel->insert($datosParaGuardarOrdenDeReparacion);
-                    return redirect()->to('/ordenDeReparacion/' . $idNuevaOrdenDeReparacion);
-                } catch (\ReflectionException $e) {
-                    throw $e;
-                }
-            }else {
-                echo "el id del cliente esta vacio";
+            $ok = $this->db->transComplete();
+            if ($ok) {
+                return redirect()->to('/ordenDeReparacion/' . $idNuevaOrdenDeReparacion);
+            } else {
+                return "error insertando orden de reparacion";
             }
-        } catch (\ReflectionException $e) {
-            throw $e;
+
         }
+
     }
 }
