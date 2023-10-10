@@ -132,13 +132,11 @@ class IngresoDeTrabajoController extends BaseController {
             'telefono' => $telefono
         );
 
-
         $cliente = new Cliente();
         $cliente->fill($datosParaGuardarCliente);
 
         try {
             $idCliente = $this->clienteModel->insert($datosParaGuardarCliente);
-            var_dump($idCliente);
 
             if(!empty($idCliente)) {
                 $datosParaGuardarOrdenDeReparacion = array(
@@ -160,13 +158,11 @@ class IngresoDeTrabajoController extends BaseController {
                 } catch (\ReflectionException $e) {
                     throw $e;
                 }
+            }else {
+                echo "el id del cliente esta vacio";
             }
         } catch (\ReflectionException $e) {
             throw $e;
         }
-
-
-
     }
-
 }
