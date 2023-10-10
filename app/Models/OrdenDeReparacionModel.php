@@ -13,9 +13,7 @@ class OrdenDeReparacionModel extends Model {
         'marca',
         'modelo',
         'accesorios',
-        'titular',
-        'domicilio',
-        'telefono',
+        'idCliente',
         'sintoma',
         'senia'
     ];

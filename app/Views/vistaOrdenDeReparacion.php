@@ -60,21 +60,21 @@
                 <label for="titular" class="col-sm-2 col-form-label labelNombre">Titular</label>
                 <div class="col-sm-10">
                     <label for="titular"
-                           class="col-sm-2 col-form-label labelVariable"><?= $ordenDeReparacion->titular ?></label>
+                           class="col-sm-2 col-form-label labelVariable"><?=$cliente->apellido.' '.$cliente->nombre?></label>
                 </div>
             </div>
             <div class="form-group row">
                 <label for="domicilio" class="col-sm-2 col-form-label labelNombre">Domicilio</label>
                 <div class="col-sm-10">
                     <label for="domicilio"
-                           class="col-sm-2 col-form-label labelVariable"><?= $ordenDeReparacion->domicilio ?></label>
+                           class="col-sm-2 col-form-label labelVariable"><?= $cliente->domicilio ?></label>
                 </div>
             </div>
             <div class="form-group row">
                 <label for="telefono" class="col-sm-2 col-form-label labelNombre">Teléfono</label>
                 <div class="col-sm-10">
                     <label for="telefono"
-                           class="col-sm-2 col-form-label labelVariable"><?= $ordenDeReparacion->telefono ?></label>
+                           class="col-sm-2 col-form-label labelVariable"><?= $cliente->telefono ?></label>
                 </div>
             </div>
             <div class="form-group row">

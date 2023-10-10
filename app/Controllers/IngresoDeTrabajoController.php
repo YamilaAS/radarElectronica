@@ -2,15 +2,19 @@
 
 namespace App\Controllers;
 
+use App\Models\ClienteModel;
+use App\Entities\Cliente;
 use App\Models\OrdenDeReparacionModel;
 use App\Entities\OrdenDeReparacion;
 
 class IngresoDeTrabajoController extends BaseController {
     private OrdenDeReparacionModel $ordenDeReparacionModel;
+    private ClienteModel $clienteModel;
     protected $helpers = ['form'];
 
     public function __construct() {
         $this->ordenDeReparacionModel = new OrdenDeReparacionModel;
+        $this->clienteModel = new ClienteModel;
     }
 
     public function verIngresoDeTrabajo() {
@@ -48,9 +52,8 @@ class IngresoDeTrabajoController extends BaseController {
                 ],
             ],
             'accesorios' => [
-                'rules' => 'regex_match[/^[a-zñáéíóúüA-ZÑÁÉÍÓÚÜ 1234567890]*$/u]|min_length[1]|max_length[100]',
+                'rules' => 'regex_match[/^[a-zñáéíóúüA-ZÑÁÉÍÓÚÜ 1234567890]*$/u]|max_length[100]',
                 'errors' => [
-                    'min_length' => 'La longitud mínima es 1',
                     'max_length' => 'La longitud máxima es 100',
                     'regex_match' => 'Solo puede ingresar letras, espacio, acento y números'
                 ],
@@ -122,28 +125,47 @@ class IngresoDeTrabajoController extends BaseController {
         $sintoma = (string)$this->request->getPost('sintoma');
         $senia = (float)$this->request->getPost('senia');
 
-        $datosParaGuardar = array(
-            'aparato' => $aparato,
-            'marca' => $marca,
-            'modelo' => $modelo,
-            'accesorios' => $accesorios,
+        $datosParaGuardarCliente = array(
             'apellido' => $apellido,
             'nombre' => $nombre,
             'domicilio' => $domicilio,
-            'telefono' => $telefono,
-            'sintoma' => $sintoma,
-            'senia' => $senia
+            'telefono' => $telefono
         );
 
-        $ordenDeReparacion = new OrdenDeReparacion();
-        $ordenDeReparacion->fill($datosParaGuardar);
+
+        $cliente = new Cliente();
+        $cliente->fill($datosParaGuardarCliente);
 
         try {
-            $idNuevaOrdenDeReparacion = $this->ordenDeReparacionModel->insert($ordenDeReparacion);
-            return redirect()->to('/ordenDeReparacion/' . $idNuevaOrdenDeReparacion);
+            $idCliente = $this->clienteModel->insert($datosParaGuardarCliente);
+            var_dump($idCliente);
+
+            if(!empty($idCliente)) {
+                $datosParaGuardarOrdenDeReparacion = array(
+                    'aparato' => $aparato,
+                    'marca' => $marca,
+                    'modelo' => $modelo,
+                    'accesorios' => $accesorios,
+                    'sintoma' => $sintoma,
+                    'senia' => $senia,
+                    'idCliente' => $idCliente
+                );
+
+                $ordenDeReparacion = new OrdenDeReparacion();
+                $ordenDeReparacion->fill($datosParaGuardarOrdenDeReparacion);
+
+                try {
+                    $idNuevaOrdenDeReparacion = $this->ordenDeReparacionModel->insert($datosParaGuardarOrdenDeReparacion);
+                    return redirect()->to('/ordenDeReparacion/' . $idNuevaOrdenDeReparacion);
+                } catch (\ReflectionException $e) {
+                    throw $e;
+                }
+            }
         } catch (\ReflectionException $e) {
             throw $e;
         }
+
+
 
     }
 
