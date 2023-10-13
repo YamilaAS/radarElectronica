@@ -18,6 +18,7 @@ class OrdenDeReparacion extends Entity
     protected string $sintoma;
     protected float $senia;
 
+
     protected $casts = [
         'id'        => 'int',
         'fechaIngreso' => 'datetime',

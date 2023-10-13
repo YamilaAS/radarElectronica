@@ -3,18 +3,29 @@
 namespace App\Controllers;
 use App\Entities\OrdenDeReparacion;
 use App\Models\OrdenDeReparacionModel;
+use App\Models\SalidaDeTrabajoModel;
+use App\Entities\SalidaDeTrabajo;
+use App\Models\ClienteModel;
+use App\Entities\Cliente;
 
 class SalidaDeTrabajoController extends BaseController {
 
     private OrdenDeReparacionModel $ordenDeReparacionModel;
+    private SalidaDeTrabajoModel $salidaDeTrabajoModel;
+    private ClienteModel $clienteModel;
 
     public function __construct() {
         $this->ordenDeReparacionModel = new OrdenDeReparacionModel;
+        $this->salidaDeTrabajoModel = new SalidaDeTrabajoModel;
+        $this->clienteModel = new ClienteModel;
     }
 
     public function verSalidaDeTrabajo (int $idOrdenDeReparacion) {
         $ordenDeReparacion = $this->ordenDeReparacionModel->find($idOrdenDeReparacion);
+        $cliente = $this->clienteModel->find($ordenDeReparacion->idCliente);
+
         $datos = [
+            "cliente" => $cliente,
             "ordenDeReparacion" => $ordenDeReparacion,
             "linkContrato" => "/ordenDeReparacion/" . $idOrdenDeReparacion . "/contrato"
 
@@ -40,13 +51,31 @@ class SalidaDeTrabajoController extends BaseController {
         $condicion = (string)$this->request->getPost('condicion');
         $idOrdenDeReparacion = (int)$this->request->getPost('codigo');
 
-        $datosParaGuardar = array(
+        $datosParaGuardar = array (
+            'idOrdenDeReparacion' => $idOrdenDeReparacion,
             'condicion' => $condicion
         );
 
+        $salidaDeTrabajo = new SalidaDeTrabajo();
+        $salidaDeTrabajo->fill($datosParaGuardar);
+
+        try {
+            $idSalidaDeTrabajo = $this->salidaDeTrabajoModel->insert($datosParaGuardar);
+        } catch (\ReflectionException $e) {
+            throw $e;
+            echo "No se pudo guardar";
+        }
+
+        $datosSalidaDeTrabajo = $this->salidaDeTrabajoModel->find($idSalidaDeTrabajo);
         $ordenDeReparacion = $this->ordenDeReparacionModel->find($idOrdenDeReparacion);
-        $salidaOrdenDeReparacion = $this->ordenDeReparacionModel->update($idOrdenDeReparacion, $datosParaGuardar);
-        var_dump($ordenDeReparacion);
-        return 'ok';
+        $cliente = $this->clienteModel->find($ordenDeReparacion->idCliente);
+
+        $datos = [
+            "datosSalidaDeTrabajo" => $datosSalidaDeTrabajo,
+            "cliente" => $cliente,
+            "ordenDeReparacion" => $ordenDeReparacion,
+            "linkContrato" => "/ordenDeReparacion/" . $idOrdenDeReparacion . "/contrato"
+        ];
+        return view('vistaOrdenDeReparacion', $datos);
     }
 }

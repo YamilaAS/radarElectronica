@@ -15,7 +15,8 @@ class OrdenDeReparacionModel extends Model {
         'accesorios',
         'idCliente',
         'sintoma',
-        'senia'
+        'senia',
+
     ];
 
     protected $returnType    = \App\Entities\OrdenDeReparacion::class;

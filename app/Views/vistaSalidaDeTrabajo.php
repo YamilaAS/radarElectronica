@@ -66,7 +66,7 @@
             <label for="titular" class="col-sm-2 col-form-label labelNombre">TITUTLAR</label>
             <div class="col-sm-10">
                 <label for="titular"
-                       class="col-sm-2 col-form-label labelVariable"><?= $ordenDeReparacion->titular ?></label>
+                       class="col-sm-2 col-form-label labelVariable"><?=$cliente->apellido.' '.$cliente->nombre?></label>
             </div>
         </div>
         <div class="form-group row">
