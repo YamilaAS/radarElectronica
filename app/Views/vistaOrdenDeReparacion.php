@@ -60,7 +60,7 @@
                 <label for="titular" class="col-sm-2 col-form-label labelNombre">Titular</label>
                 <div class="col-sm-10">
                     <label for="titular"
-                           class="col-sm-2 col-form-label labelVariable"><?=$cliente->apellido.' '.$cliente->nombre?></label>
+                           class="col-sm-2 col-form-label labelVariable"><?= $cliente->apellido . ' ' . $cliente->nombre ?></label>
                 </div>
             </div>
             <div class="form-group row">
@@ -91,12 +91,35 @@
                            class="col-sm-2 col-form-label labelVariable">$ <?= $ordenDeReparacion->senia ?></label>
                 </div>
             </div>
-            <!--
-            <div class="d-grid gap-2 d-flex justify-content-start">
-                <a type="submit" class="btn btn-primary btn-block btnImprimir" href="<?= $linkContrato ?>"
-                   target="_blank">Imprimir Contrato</a>
+
+
+            <div class="infomeDeSalida">
+                <?php if ($salidaDeTrabajo != null) : ?>
+                    <hr/>
+                    <div class="">
+                        <h3>Detalle de Salida de Trabajo</h3>
+                    </div>
+                    <div class="form-group row">
+                        <label for="" class="col-sm-2 col-form-label labelNombre">Salida</label>
+                        <div class="col-sm-10">
+                            <label for="fechaSalida" type="date"
+                                   class="col-sm-2 col-form-label labelVariable"><?= $salidaDeTrabajo->fechaSalida->format("d/m/Y") ?></label>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="condicion" class="col-sm-2 col-form-label labelNombre">Condición</label>
+                        <div class="col-sm-10">
+                            <label for="senia"
+                                   class="col-sm-2 col-form-label labelVariable"> <?= $salidaDeTrabajo->condicion ?></label>
+                        </div>
+                    </div>
+                <?php endif; ?>
             </div>
-         -->
+
+
         </div>
+
+
+
     </div>
 <?= $this->endSection('contenido') ?>

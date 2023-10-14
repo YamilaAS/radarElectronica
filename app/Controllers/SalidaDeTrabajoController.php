@@ -71,7 +71,7 @@ class SalidaDeTrabajoController extends BaseController {
         $cliente = $this->clienteModel->find($ordenDeReparacion->idCliente);
 
         $datos = [
-            "datosSalidaDeTrabajo" => $datosSalidaDeTrabajo,
+            "salidaDeTrabajo" => $datosSalidaDeTrabajo,
             "cliente" => $cliente,
             "ordenDeReparacion" => $ordenDeReparacion,
             "linkContrato" => "/ordenDeReparacion/" . $idOrdenDeReparacion . "/contrato"
