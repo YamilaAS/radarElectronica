@@ -5,7 +5,7 @@
         "<b>Marca: </b>" . $ordenDeReparacion->marca . "</br>" .
         "<b>Modelo: </b>" . $ordenDeReparacion->modelo . "</br>" .
         "<b>Accesorios: </b>" . $ordenDeReparacion->accesorios . "</br>" .
-        "<b>Titular: </b>" . $ordenDeReparacion->titular ;
+        "<b>Titular: </b>" . $cliente->apellido . ' ' . $cliente->nombre ;
 ?>
 
 <html>

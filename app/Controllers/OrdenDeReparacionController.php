@@ -42,7 +42,8 @@ class OrdenDeReparacionController extends BaseController{
 
     public function verContratoOrdenDeReparacion(int $idOrdenDeReparacion) {
         $ordenDeReparacion = $this->ordenDeReparacionModel->find($idOrdenDeReparacion);
-        $contrato = view('contrato', ["ordenDeReparacion" => $ordenDeReparacion]);
+        $cliente = $this->clienteModel->find($ordenDeReparacion->idCliente);
+        $contrato = view('contrato', ["ordenDeReparacion" => $ordenDeReparacion, "cliente" => $cliente]);
         PDFHelper::mostrarPDF($contrato);
     }
 
