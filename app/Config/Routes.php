@@ -23,4 +23,4 @@ $routes->get('/informeDeReparacion/(:num)', 'InformeDeReparacionController::verI
 
 //Salida de trabajo
 $routes->get('/salidaDeTrabajo/(:num)', 'SalidaDeTrabajoController::verSalidaDeTrabajo/$1');
-$routes->post('/salidaDeTrabajo', 'SalidaDeTrabajoController::procesarSalidaDeTrabajo');
+$routes->post('/ordenDeReparacion', 'SalidaDeTrabajoController::procesarSalidaDeTrabajo');
