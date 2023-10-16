@@ -102,7 +102,7 @@
             </div>
             <input name="codigo"  type="hidden" value="<?=$ordenDeReparacion->id ?> ">
             <div class="d-grid gap-2 d-flex justify-content-start">
-                <button type="submit" class="btn btn-primary btn-block btnRegistrar">Ingresar</button>
+                <button type="submit" class="btn btn-primary btn-block btnRegistrar">Cargar Salida de Trabajo</button>
             </div>
         </form>
     </div>
