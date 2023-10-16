@@ -72,7 +72,8 @@
 
         <hr/>
 
-        <form  action="<?php echo base_url('/ingresoDeInformeDeReparacion') ?>" method="post" >
+        <form  action="<?php echo base_url('/ordenDeReparacion') ?>" method="post" >
+            <input name="id"  type="hidden" value="<?=$ordenDeReparacion->id ?> ">
             <div class="form-group row">
                 <label for="detalle" class="col-sm-2 col-form-label">Detalle</label>
                 <div class="col-sm-10">

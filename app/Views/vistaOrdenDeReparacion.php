@@ -93,6 +93,37 @@
             </div>
 
 
+            <div class="">
+                <?php if ($informeDeReparacion != null) : ?>
+                    <hr/>
+                    <div class="">
+                        <h3>Informe de Reparación</h3>
+                    </div>
+                    <div class="form-group row">
+                        <label for="" class="col-sm-2 col-form-label labelNombre">Reparación</label>
+                        <div class="col-sm-10">
+                            <label for="fechaReparacion" type="date"
+                                   class="col-sm-2 col-form-label labelVariable"><?=$informeDeReparacion->fechaReparacion->format("d/m/Y") ?></label>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="detalle" class="col-sm-2 col-form-label labelNombre">Detalle</label>
+                        <div class="col-sm-10">
+                            <label for="detalle"
+                                   class="col-sm-2 col-form-label labelVariable"> <?= $informeDeReparacion->detalle?></label>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="importe" class="col-sm-2 col-form-label labelNombre">Importe</label>
+                        <div class="col-sm-10">
+                            <label for="importe"
+                                   class="col-sm-2 col-form-label labelVariable"> $ <?= $informeDeReparacion->importe?></label>
+                        </div>
+                    </div>
+                <?php endif; ?>
+            </div>
+
+
             <div class="infomeDeSalida">
                 <?php if ($salidaDeTrabajo != null) : ?>
                     <hr/>
@@ -115,8 +146,6 @@
                     </div>
                 <?php endif; ?>
             </div>
-
-
         </div>
 
 
