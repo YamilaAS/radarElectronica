@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 use App\Entities\OrdenDeReparacion;
+use App\Entities\InformeDeReparacion;
+use App\Models\InformeDeReparacionModel;
 use App\Models\OrdenDeReparacionModel;
 use App\Models\SalidaDeTrabajoModel;
 use App\Entities\SalidaDeTrabajo;
@@ -13,21 +15,29 @@ class SalidaDeTrabajoController extends BaseController {
     private OrdenDeReparacionModel $ordenDeReparacionModel;
     private SalidaDeTrabajoModel $salidaDeTrabajoModel;
     private ClienteModel $clienteModel;
+    private InformeDeReparacionModel $informeDeReparacionModel;
 
     public function __construct() {
         $this->ordenDeReparacionModel = new OrdenDeReparacionModel;
         $this->salidaDeTrabajoModel = new SalidaDeTrabajoModel;
         $this->clienteModel = new ClienteModel;
+        $this->informeDeReparacionModel = new InformeDeReparacionModel;
     }
 
     public function verSalidaDeTrabajo (int $idOrdenDeReparacion) {
         $ordenDeReparacion = $this->ordenDeReparacionModel->find($idOrdenDeReparacion);
         $cliente = $this->clienteModel->find($ordenDeReparacion->idCliente);
+        $informeDeReparacion = $this->informeDeReparacionModel->where('idOrdenDeReparacion',$idOrdenDeReparacion)->first();
+
+        if(empty($informeDeReparacion) ){
+            $informeDeReparacion = null;
+        }
 
         $datos = [
             "cliente" => $cliente,
             "ordenDeReparacion" => $ordenDeReparacion,
-            "linkContrato" => "/ordenDeReparacion/" . $idOrdenDeReparacion . "/contrato"
+            "linkContrato" => "/ordenDeReparacion/" . $idOrdenDeReparacion . "/contrato",
+            "informeDeReparacion" => $informeDeReparacion
 
         ];
         return view('vistaSalidaDeTrabajo', $datos);

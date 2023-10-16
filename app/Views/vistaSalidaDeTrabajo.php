@@ -76,19 +76,31 @@
                        class="col-sm-2 col-form-label labelVariable"><?= $ordenDeReparacion->sintoma ?></label>
             </div>
         </div>
-        <div class="form-group row">
-            <label for="" class="col-sm-2 col-form-label labelNombre">REPARACIÓN</label>
-            <div class="col-sm-10">
-                <label for="fechaReparacion" type="date"
-                       class="col-sm-2 col-form-label labelVariable"><?=1-1-1 ?></label>
-            </div>
-        </div>
-        <div class="form-group row">
-            <label for="" class="col-sm-2 col-form-label labelNombre">DETALLE</label>
-            <div class="col-sm-10">
-                <label for="detalle" type="date"
-                       class="col-sm-2 col-form-label labelVariable"><?=1-1-1 ?></label>
-            </div>
+        <div class="">
+            <?php if ($informeDeReparacion != null) : ?>
+
+                <div class="form-group row">
+                    <label for="" class="col-sm-2 col-form-label labelNombre">Reparación</label>
+                    <div class="col-sm-10">
+                        <label for="fechaReparacion" type="date"
+                               class="col-sm-2 col-form-label labelVariable"><?=$informeDeReparacion->fechaReparacion->format("d/m/Y") ?></label>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="detalle" class="col-sm-2 col-form-label labelNombre">Detalle</label>
+                    <div class="col-sm-10">
+                        <label for="detalle"
+                               class="col-sm-2 col-form-label labelVariable"> <?= $informeDeReparacion->detalle?></label>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="importe" class="col-sm-2 col-form-label labelNombre">Importe</label>
+                    <div class="col-sm-10">
+                        <label for="importe"
+                               class="col-sm-2 col-form-label labelVariable"> $ <?= $informeDeReparacion->importe?></label>
+                    </div>
+                </div>
+            <?php endif; ?>
         </div>
 
         <hr/>
