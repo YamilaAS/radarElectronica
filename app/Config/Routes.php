@@ -19,7 +19,7 @@ $routes->get('/ordenDeReparacion/(:num)/contrato', 'OrdenDeReparacionController:
 
 //Informe de Reparación
 $routes->get('/informeDeReparacion/(:num)', 'InformeDeReparacionController::verInformeDeReparacion/$1');
-//$routes->post('/informeDeReparacion', 'InformeDeReparacionController::procesarInformeDeReparacion');
+$routes->post('/ordenDeReparacion', 'InformeDeReparacionController::procesarInformeDeReparacion');
 
 //Salida de trabajo
 $routes->get('/salidaDeTrabajo/(:num)', 'SalidaDeTrabajoController::verSalidaDeTrabajo/$1');
