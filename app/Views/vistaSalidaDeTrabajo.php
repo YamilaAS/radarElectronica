@@ -93,7 +93,7 @@
 
         <hr/>
 
-        <form  action="<?php echo base_url('/ordenDeReparacion') ?>" method="post" >
+        <form  action="<?php echo base_url('/salidaDeTrabajo') ?>" method="post" >
             <div class="form-group row condicion">
                 <label for="condicion" class="col-sm-2 col-form-label labelNombre">CONDICIÓN</label>
                 <div class="col-sm-10">

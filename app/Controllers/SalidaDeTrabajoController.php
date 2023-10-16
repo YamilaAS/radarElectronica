@@ -76,6 +76,7 @@ class SalidaDeTrabajoController extends BaseController {
             "ordenDeReparacion" => $ordenDeReparacion,
             "linkContrato" => "/ordenDeReparacion/" . $idOrdenDeReparacion . "/contrato"
         ];
-        return view('vistaOrdenDeReparacion', $datos);
+
+        return redirect()->to('/ordenDeReparacion/' . $idOrdenDeReparacion);
     }
 }

@@ -72,7 +72,7 @@
 
         <hr/>
 
-        <form  action="<?php echo base_url('/ordenDeReparacion') ?>" method="post" >
+        <form  action="<?php echo base_url('/informeDeReparacion') ?>" method="post" >
             <input name="id"  type="hidden" value="<?=$ordenDeReparacion->id ?> ">
             <div class="form-group row">
                 <label for="detalle" class="col-sm-2 col-form-label">Detalle</label>

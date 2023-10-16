@@ -90,6 +90,6 @@ class InformeDeReparacionController extends BaseController{
             "linkContrato" => "/ordenDeReparacion/" . $idOrdenDeReparacion . "/contrato"
         ];
 
-        return view('vistaOrdenDeReparacion', $datos);
+        return redirect()->to('/ordenDeReparacion/' . $idOrdenDeReparacion);
     }
 }
