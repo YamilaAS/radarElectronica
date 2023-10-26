@@ -24,3 +24,8 @@ $routes->post('/informeDeReparacion', 'InformeDeReparacionController::procesarIn
 //Salida de trabajo
 $routes->get('/ordenDeReparacion/(:num)/salidaDeTrabajo', 'SalidaDeTrabajoController::verSalidaDeTrabajo/$1');
 $routes->post('/salidaDeTrabajo', 'SalidaDeTrabajoController::procesarSalidaDeTrabajo');
+
+
+//Buscar
+$routes->get('/buscar', 'BuscadorController::verBuscardor');
+
