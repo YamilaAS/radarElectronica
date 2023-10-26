@@ -28,4 +28,8 @@ $routes->post('/salidaDeTrabajo', 'SalidaDeTrabajoController::procesarSalidaDeTr
 
 //Buscar
 $routes->get('/buscar', 'BuscadorController::verBuscardor');
+$routes->post('/buscar', 'BuscadorController::procesarBuscador');
+
+//
+$routes->post('/busquedaRapida', 'BuscadorController::procesarBusquedaRapida');
 

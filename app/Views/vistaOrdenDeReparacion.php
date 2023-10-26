@@ -147,8 +147,5 @@
                 <?php endif; ?>
             </div>
         </div>
-
-
-
     </div>
 <?= $this->endSection('contenido') ?>

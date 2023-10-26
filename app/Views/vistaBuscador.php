@@ -1,3 +1,15 @@
-<?php
-?>
-<h1>Hola yami</h1>
+<?= $this->extend('templates/main.php'); ?>
+
+<?= $this->section('title') ?>Ingreso de Trabajo<?= $this->endSection('title') ?>
+
+<?= $this->section('contenido') ?>
+
+
+<div class="contenedorInformeDeReparacion">
+
+    <div class="sidebarBuscador">
+        <?= $this->include('templates/sidebarBuscador') ?>
+    </div>
+</div>
+
+<?= $this->endSection('contenido') ?>
