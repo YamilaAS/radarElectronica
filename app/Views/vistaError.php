@@ -6,11 +6,9 @@
 
 <div class="contenedorDetalleDeOrdenDeTrabajo">
 
-
-
     <div class="detalleDeOrdenDeReparacion">
         <div class="tituloDetalleDeOrden">
-            <h1>Orden No Encontrada</h1>
+            <h1><?=$titulo?></h1>
         </div>
     </div>
 <?= $this->endSection('contenido') ?>

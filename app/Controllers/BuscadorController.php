@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\OrdenDeReparacionModel;
 use App\Models\ClienteModel;
+use function PHPUnit\Framework\isEmpty;
 
 class BuscadorController extends BaseController{
 
@@ -30,28 +31,68 @@ class BuscadorController extends BaseController{
     }
 
     public function  procesarBusquedaRapida(){
-        $busquedaRapida = (string)$this->request->getPost('busquedaRapida');
+        $q = (string)$this->request->getGet('q');
+        $limit = (int)$this->request->getGet('limit');
+        $offset = (int)$this->request->getGet('offset');
 
-        if(is_numeric($busquedaRapida)){
-
-        $orden = (int)$busquedaRapida;
+        if(is_numeric($q)){
+            $orden = (int)$q;
             return $this->buscarPorOrden($orden);
         }else {
-            return 'falta implementar un string';
+            return $this->buscarPorApellido($q, $limit, $offset, null);
         }
 
     }
 
 
-    public function  buscarPorOrden($idOrdenDeReparacion)
-    {
+    public function  buscarPorOrden($idOrdenDeReparacion) {
         $ordenDeReparacion = $this->ordenDeReparacionModel->find($idOrdenDeReparacion);
-        // si existe
 
         if ($ordenDeReparacion != null) {
             return redirect()->to('/ordenDeReparacion/' . $idOrdenDeReparacion);
         } else {
-            return view('vistaOrdenNoEncontrada');
+            $datos = array (
+                'titulo' => 'Orden no encontrada'
+            );
+            return view('vistaError',$datos);
+        }
+    }
+
+    public function  buscarPorApellido($apellido, $limit, $offset, $filtroDeBusqueda) {
+        $ordenes = $this->ordenDeReparacionModel
+            ->join('clientes', 'ordenDeReparacion.idCliente = clientes.id')
+            ->where('clientes.apellido', $apellido)
+            ->orderBy('clientes.nombre', 'asc')
+            ->findAll($limit, $offset);
+
+        $cantidadOrdenes = sizeof($ordenes);
+        if ($cantidadOrdenes > 0) {
+            $paginaAnterior = null;
+            $paginaSiguiente = null;
+
+            if ($cantidadOrdenes == $limit) {
+                $nuevoOffset = $offset + $limit;
+                $paginaSiguiente = "?q=" . $apellido . "&limit=" . $limit . "&offset=" . $nuevoOffset;
+            }
+            if ($offset > 0) {
+                $nuevoOffset = $offset - $limit;
+                if ($nuevoOffset < 0) {
+                    $nuevoOffset = 0;
+                }
+                $paginaAnterior = "?q=" . $apellido . "&limit=" . $limit . "&offset=" . $nuevoOffset;
+            }
+
+            $datos = array(
+                'paginaAnterior' => $paginaAnterior,
+                'paginaSiguiente' => $paginaSiguiente,
+                'ordenes' => $ordenes
+            );
+            return var_dump($datos);
+        } else {
+            $datos = array (
+                'titulo' => 'Orden no encontrada el apellido ' . $apellido
+            );
+            return view('vistaError',$datos);
         }
     }
 

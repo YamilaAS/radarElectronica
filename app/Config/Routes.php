@@ -30,6 +30,6 @@ $routes->post('/salidaDeTrabajo', 'SalidaDeTrabajoController::procesarSalidaDeTr
 $routes->get('/buscar', 'BuscadorController::verBuscardor');
 $routes->post('/buscar', 'BuscadorController::procesarBuscador');
 
-//
-$routes->post('/busquedaRapida', 'BuscadorController::procesarBusquedaRapida');
+//Buscar
+$routes->get('/busquedaRapida', 'BuscadorController::procesarBusquedaRapida');
 

@@ -13,8 +13,10 @@
     </nav>
 
     <div class="buscadorRapido">
-        <form action="<?php echo base_url('/busquedaRapida') ?>" method="post">
-            <input class="inputBuscador" name="busquedaRapida" type="text" placeholder="Buscador rápido">
+        <form action="<?php echo base_url('/busquedaRapida') ?>" method="get">
+            <input class="inputBuscador" name="q" type="text" placeholder="Buscador rápido">
+            <input type="hidden" name="limit" value="10">
+            <input type="hidden" name="offset" value="0">
             <button class="btnBuscar"><img class="imgLupa" src="/img/lupaBlanca.png"></img></button>
         </form>
     </div>
