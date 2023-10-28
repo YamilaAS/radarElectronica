@@ -13,7 +13,6 @@
 
 .form-control-plaintext {
     background: var(--color-secundario);
-   /* border-radius: 5px;*/
     color: var(--color-letras);
     margin-left: 60px;
 }

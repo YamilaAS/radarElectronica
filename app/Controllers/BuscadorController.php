@@ -10,7 +10,7 @@ class BuscadorController extends BaseController{
 
     private OrdenDeReparacionModel $ordenDeReparacionModel;
     private ClienteModel $clienteModel;
-
+    protected $helpers = ['form'];
 
     public function __construct() {
         $this->ordenDeReparacionModel = new OrdenDeReparacionModel;
@@ -21,13 +21,16 @@ class BuscadorController extends BaseController{
         return view('vistaBuscador');
     }
 
-    public function  procesarBuscador(){
-        $apellidoCliente = (string)$this->request->getPost('cliente');
-        $idOrdenDeReparacion = (int)$this->request->getPost('orden');
+    public function  procesarBusquedaEspecializada(){
+        $q = (string)$this->request->getGet('q');
+        //recibir el apellido del cliente
+        //relizar la busqueda
+        //mostrar por pantalla
+        //buscar por los filtros que selecciono el usuario
+        //no anda por que es un get fijate por que
+        $listadoClientes = $this->buscarPorApellido($q, $limit, $offset, null);
+        var_dump($listadoClientes);
 
-        $ordenDeReparacion = $this->ordenDeReparacionModel->find($idOrdenDeReparacion);
-        $listaPorApellido = $this->clienteModel->where('apellido', $apellidoCliente)->find();
-        var_dump($listaPorApellido);
     }
 
     public function  procesarBusquedaRapida(){

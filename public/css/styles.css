@@ -6,6 +6,8 @@
 @import "sidebarService.css";
 @import "informeDeReparacion.css";
 @import "salidaDeTrabajo.css";
+@import "sidebarBuscador.css";
+@import "busquedaPorApellido.css";
 
 :root {
     --color-principal: #1C3F60;

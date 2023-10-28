@@ -1,8 +1,8 @@
-.contenedorSalidaDeTrabajo {
+.contenedorPrincipal {
     display: flex;
 }
 
-.salidaDeTrabajo {
+.listadoDeBusqueda {
     margin: 0 auto;
     /*width: 700px;*/
     padding: 30px;

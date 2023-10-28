@@ -1,15 +1,11 @@
 <? php ?>
 <div class="sidebar">
     <nav>
-        <form action="<?php echo base_url('/buscar') ?>" method="post">
+        <form action="<?php echo base_url('/procesarBusquedaEspecializada') ?>" method="get">
             <h4 class="tituloService">BUSCAR POR</h4>
-            <div>
-                <input name="orden" class="form-control " id="orden" value="" placeholder="Ingrese Número de Orden">
-            </div>
-            <div>
-                <input name="cliente" class="form-control" id="cliente" value=""
-                       placeholder="Ingrese Apellido del Cliente">
-            </div>
+            <input class="buscarPor" name="q" type="text" placeholder="Ingrese apellido">
+            <input type="hidden" name="limit" value="10">
+            <input type="hidden" name="offset" value="0">
 
             <hr/>
 
@@ -51,7 +47,7 @@
             <hr/>
 
             <div class="d-grid gap-2 d-flex justify-content-start">
-                <button type="submit" class="btn btn-primary btn-block btnRegistrar">Buscar</button>
+                <button type="submit" class="btn btn-primary btn-block buscarBtn">Buscar</button>
             </div>
         </form>
     </nav>
