@@ -10,6 +10,8 @@
     <div class="sidebarBuscador">
         <?= $this->include('templates/sidebarBuscador') ?>
     </div>
+
+    <?php var_dump($ordenes);?>
 </div>
 
 <?= $this->endSection('contenido') ?>

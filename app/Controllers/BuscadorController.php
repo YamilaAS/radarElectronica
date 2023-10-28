@@ -87,7 +87,7 @@ class BuscadorController extends BaseController{
                 'paginaSiguiente' => $paginaSiguiente,
                 'ordenes' => $ordenes
             );
-            return var_dump($datos);
+            return view('vistaBuscador', $datos);
         } else {
             $datos = array (
                 'titulo' => 'Orden no encontrada el apellido ' . $apellido
