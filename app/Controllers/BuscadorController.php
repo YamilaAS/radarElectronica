@@ -23,9 +23,7 @@ class BuscadorController extends BaseController{
 
     public function  procesarBusquedaEspecializada(){
         $q = (string)$this->request->getGet('q');
-        //recibir el apellido del cliente
-        //relizar la busqueda
-        //mostrar por pantalla
+
         //buscar por los filtros que selecciono el usuario
         //no anda por que es un get fijate por que
         $listadoClientes = $this->buscarPorApellido($q, $limit, $offset, null);

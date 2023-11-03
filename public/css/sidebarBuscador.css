@@ -1,11 +1,17 @@
-.buscarPor{
-    width: 240px;
+.tituloBuscador{
+    color: var(--color-letras);
+    padding: 10px;
+    font-family: "Poppins";
+}
+
+.inputBuscarPor{
+    width: 230px;
     padding: 10px;
     border-radius: 5px 5px 5px 5px;
     border: 0;
     outline: none;
     font-size: 1rem;
-    margin: 5px;
+    margin: 10px;
     background: var(--color-secundario);
     color: var(--color-letras);
 }
@@ -14,13 +20,32 @@
     color: var(--color-letras);
 }
 
+.tituloCheck {
+    padding: 10px ;
+}
+
+.check {
+    margin: 5px 10px;
+}
+
+.inputFecha {
+    width: 100px;
+    display: inline-block;
+    margin: 10px;
+    color: var(--color-secundario);
+}
+
+
 
 .buscarBtn {
     background: var(--color-secundario);
     border-color:var(--color-secundario);
+    margin: 10px;
+    width: 230px;
 }
 
 .buscarBtn:hover {
-    background: var(--color-secundario);
-    border: 2px solid var(--color-fondo);
+    background: var(--color-letras);
+    color: var(--color-secundario);
+    border: 2px solid var(--color-secundario);
 }
