@@ -27,7 +27,7 @@
             </thead>
             <tbody>
             <?php foreach ($ordenes as $orden) : ?>
-            <?php var_dump($orden)?>
+
             <tr class="item">
                 <td ><?= $orden->id ?></td>
                 <td><?= $orden->apellido . ' ' . $orden->nombre ?></td>

@@ -1,4 +1,4 @@
-<div class="sidebar">
+<div class="sidebarService">
     <nav>
         <h4 class="tituloService">MENÚ DE SERVICE</h4>
         <a class="itmesService" href="<?= base_url('ordenDeReparacion/'.$ordenDeReparacion->id.'/informeDeReparacion/'  )?>">Informe de Reparación</a>

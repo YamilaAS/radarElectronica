@@ -1,7 +1,9 @@
 .contenedorDetalleDeOrdenDeTrabajo {
     display: flex;
+    height: 100%;
 }
-.sidebarService{}
+
+
 
 .detalleDeOrdenDeReparacion {
     margin: 0 auto;

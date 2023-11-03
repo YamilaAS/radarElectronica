@@ -1,3 +1,11 @@
+.sidebarBuscador {
+    position: absolute;
+    background: var(--color-principal);
+    color: var(--color-letras);
+    width: 100%;
+    max-width: 250px;
+
+}
 .tituloBuscador{
     color: var(--color-letras);
     padding: 10px;
