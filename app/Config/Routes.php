@@ -27,8 +27,7 @@ $routes->post('/salidaDeTrabajo', 'SalidaDeTrabajoController::procesarSalidaDeTr
 
 
 //Buscar con parametros
-$routes->get('/buscar', 'BuscadorController::listarResultados');
-$routes->post('/buscar', 'BuscadorController::procesarBusquedaEspecializada');
+$routes->get('/buscar', 'BuscadorController::procesarBusqueda');
 
 //Buscar
 $routes->get('/busquedaRapida', 'BuscadorController::procesarBusquedaRapida');

@@ -22,8 +22,9 @@
                 <th>MARCA</th>
                 <th>ACCESORIOS</th>
                 <th>INGRESO</th>
-                <th>REPARACIÓN</th>
                 <th>IMPORTE</th>
+                <th>REPARACIÓN</th>
+                <th>SALIDA</th>
             </tr>
             </thead>
             <tbody>
@@ -36,8 +37,15 @@
                 <td><?= $orden->marca ?></td>
                 <td><?= $orden->accesorios ?></td>
                 <td><?= $orden->fechaIngreso->format("d/m/Y")  ?></td>
-                <td></td>
-                <td></td>
+                <td>$ <?= $orden->importe?></td>
+
+                <?php if (isset($orden->fechaReparacion)  && $orden->fechaReparacion != ''): ?>
+                    <td><?= date('d/m/Y', strtotime($orden->fechaReparacion)) ?></td>
+                <?php endif; ?>
+
+                <?php if (isset($orden->fechaSalida)  && $orden->fechaSalida != ''): ?>
+                    <td><?= date('d/m/Y', strtotime($orden->fechaSalida)) ?></td>
+                <?php endif; ?>
             </tr>
 
             <?php endforeach; ?>

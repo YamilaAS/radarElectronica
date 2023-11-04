@@ -28,7 +28,7 @@ class BuscadorController extends BaseController{
         }
     }
 
-    public function listarResultados() {
+    public function procesarBusqueda() {
         $limit = (int)$this->request->getGet('limit');
         $offset = (int)$this->request->getGet('offset');
 
@@ -63,13 +63,11 @@ class BuscadorController extends BaseController{
     }
 
     public function  buscarPorApellido($apellido, $limit, $offset, $filtroDeBusqueda) {
-        $ordenes = [];
-        $paginaAnterior = null;
-        $paginaSiguiente = null;
-
         $ordenes = $this->generarBusqueda($apellido, $filtroDeBusqueda)->findAll($limit, $offset);
         $total = $this->generarBusqueda($apellido, $filtroDeBusqueda)->countAllResults();
 
+        $paginaAnterior = null;
+        $paginaSiguiente = null;
         $cantidadOrdenes = sizeof($ordenes);
         if ($cantidadOrdenes > 0) {
             if ($cantidadOrdenes == $limit && $total > $offset + $limit) {
@@ -86,11 +84,11 @@ class BuscadorController extends BaseController{
         }
 
         $datos = array(
-            'paginaAnterior' => $paginaAnterior,
-            'paginaSiguiente' => $paginaSiguiente,
             'ordenes' => $ordenes,
             'cantidadOrdenes' => $cantidadOrdenes,
-            'total' => $total
+            'total' => $total,
+            'paginaAnterior' => $paginaAnterior,
+            'paginaSiguiente' => $paginaSiguiente
         );
 
         return view('vistaBuscador', $datos);
@@ -98,8 +96,10 @@ class BuscadorController extends BaseController{
 
     private function generarBusqueda($apellido, $filtroDeBusqueda) {
         $busqueda = $this->ordenDeReparacionModel
-            ->select('*,ordenDeReparacion.id as ordenId')
-            ->join('clientes', 'ordenDeReparacion.idCliente = clientes.id ');
+            ->select("*,ordenDeReparacion.id as ordenId")
+            ->join('clientes', 'ordenDeReparacion.idCliente = clientes.id ')
+            ->join('informeDeReparacion', 'ordenDeReparacion.id = informeDeReparacion.idOrdenDeReparacion', 'left')
+            ->join('salidaDeTrabajo', 'ordenDeReparacion.id = salidaDeTrabajo.idOrdenDeReparacion', 'left');
 
         if (isset($apellido) && $apellido != '') {
             $busqueda->where('clientes.apellido', $apellido)
