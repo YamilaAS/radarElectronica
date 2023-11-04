@@ -106,13 +106,13 @@
         <hr/>
 
         <form  action="<?php echo base_url('/salidaDeTrabajo') ?>" method="post" >
+            <input name="codigo"  type="hidden" value="<?=$ordenDeReparacion->id ?> ">
             <div class="form-group row condicion">
                 <label for="condicion" class="col-sm-2 col-form-label labelNombre">CONDICIÓN</label>
                 <div class="col-sm-10">
                     <textarea name="condicion" class="form-control-plaintext textareaCondicion" rows="1" id="condicion" value="" ></textarea>
                 </div>
             </div>
-            <input name="codigo"  type="hidden" value="<?=$ordenDeReparacion->id ?> ">
             <div class="d-grid gap-2 d-flex justify-content-start">
                 <button type="submit" class="btn btn-primary btn-block btnRegistrar">Salida de Trabajo</button>
             </div>

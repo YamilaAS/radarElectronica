@@ -1,5 +1,13 @@
-.contenedorPrincipal {
+.contenedorSalidaDeTrabajo {
     display: flex;
+}
+
+.salidaDeTrabajo {
+    margin: 0 auto;
+    /*width: 700px;*/
+    padding: 30px;
+    color: var(--color-letras);
+    font-family: Poppins;
 }
 
 .listadoDeBusqueda {
@@ -20,6 +28,10 @@
 
 .labelVariable {
     margin-left: 60px;
+}
+
+.condicion{
+    margin-top: 10px;
 }
 
 .textareaCondicion{
