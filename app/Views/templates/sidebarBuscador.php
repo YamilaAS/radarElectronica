@@ -26,12 +26,16 @@
 
             <h5 class="tituloCheck">ESTADO</h5>
             <div class="form-check check">
-                <input class="form-check-input"  name="estado[]" type="checkbox" id="sinReparar" value="sinReparar">
+                <input class="form-check-input"  name="estado" type="radio" id="sinReparar" value="sinReparar">
                 <label class="form-check-label" for="sinReparar">Sin Reparar</label>
             </div>
             <div class="form-check check">
-                <input class="form-check-input" name="estado[]" type="checkbox" id="reparado" value="reparado">
+                <input class="form-check-input" name="estado" type="radio" id="reparado" value="reparado">
                 <label class="form-check-label" for="reparado">Reparado</label>
+            </div>
+            <div class="form-check check">
+                <input class="form-check-input" name="estado" type="radio" id="entregado" value="entregado">
+                <label class="form-check-label" for="entregado">Entregado</label>
             </div>
 
             <h5 class="tituloCheck">FECHA DE INGRESO</h5>

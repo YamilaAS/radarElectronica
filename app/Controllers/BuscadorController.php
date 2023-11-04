@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Models\OrdenDeReparacionModel;
 use App\Models\ClienteModel;
 use function PHPUnit\Framework\isEmpty;
+use function PHPUnit\Framework\throwException;
 
 class BuscadorController extends BaseController{
 
@@ -34,7 +35,7 @@ class BuscadorController extends BaseController{
 
         $apellido = (string)$this->request->getGet('apellido');
         $aparato = (array)$this->request->getGet('aparato');
-        $estado = (array)$this->request->getGet('estado');
+        $estado = (string)$this->request->getGet('estado');
         $fechaDesde = (string)$this->request->getGet('fechaDesde');
         $fechaHasta = (string)$this->request->getGet('fechaHasta');
 
@@ -88,7 +89,8 @@ class BuscadorController extends BaseController{
             'cantidadOrdenes' => $cantidadOrdenes,
             'total' => $total,
             'paginaAnterior' => $paginaAnterior,
-            'paginaSiguiente' => $paginaSiguiente
+            'paginaSiguiente' => $paginaSiguiente,
+            'filtroDeBusqueda' => $filtroDeBusqueda,
         );
 
         return view('vistaBuscador', $datos);
@@ -107,6 +109,38 @@ class BuscadorController extends BaseController{
         } else {
             $busqueda->orderBy('ordenDeReparacion.fechaIngreso', 'desc');
         }
+
+        $aparatos = $filtroDeBusqueda['aparato'];
+        $estado = $filtroDeBusqueda['estado'];
+        $fechaDesde = $filtroDeBusqueda['fechaDesde'];
+        $fechaHasta = $filtroDeBusqueda['fechaHasta'];
+
+        if (isset($aparatos) && !empty($aparatos)) {
+            $busqueda->whereIn('ordenDeReparacion.aparato', $aparatos);
+        }
+
+        if (isset($estado) && $estado != '') {
+            switch ($estado) {
+                case "sinReparar":
+                    $busqueda->where("informeDeReparacion.fechaReparacion IS NULL");
+                    break;
+                case "reparado":
+                    $busqueda->where("informeDeReparacion.fechaReparacion <>", "NULL");
+                    break;
+                case "entregado":
+                    $busqueda->where("salidaDeTrabajo.fechaSalida <>", "null");
+                    break;
+            }
+        }
+
+        if (isset($fechaDesde) && $fechaDesde != '') {
+            $busqueda->where('ordenDeReparacion.fechaIngreso >= ', $fechaDesde);
+        }
+
+        if (isset($fechaHasta) && $fechaHasta != '') {
+            $busqueda->where('ordenDeReparacion.fechaIngreso <= ', $fechaHasta);
+        }
+
         return $busqueda;
     }
 
