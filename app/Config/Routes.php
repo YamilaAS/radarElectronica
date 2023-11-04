@@ -26,9 +26,9 @@ $routes->get('/ordenDeReparacion/(:num)/salidaDeTrabajo', 'SalidaDeTrabajoContro
 $routes->post('/salidaDeTrabajo', 'SalidaDeTrabajoController::procesarSalidaDeTrabajo');
 
 
-//Buscar
+//Buscar con parametros
 $routes->get('/buscar', 'BuscadorController::verBuscardor');
-$routes->get('/buscar', 'BuscadorController::procesarBusquedaEspecializada');
+$routes->post('/buscar', 'BuscadorController::procesarBusquedaEspecializada');
 
 //Buscar
 $routes->get('/busquedaRapida', 'BuscadorController::procesarBusquedaRapida');

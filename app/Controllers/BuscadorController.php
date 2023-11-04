@@ -22,8 +22,22 @@ class BuscadorController extends BaseController{
     }
 
     public function  procesarBusquedaEspecializada(){
-        $q = (string)$this->request->getGet('q');
+        $q = (string)$this->request->getPost('q');
+        $limit = (int)$this->request->getGet('limit');
+        $offset = (int)$this->request->getGet('offset');
 
+        if ($q != null) {
+            $ordenes = $this->ordenDeReparacionModel
+                ->join('clientes', 'ordenDeReparacion.idCliente = clientes.id as idCliente')
+                ->where('clientes.apellido', $apellido)
+                ->orderBy('clientes.nombre', 'asc')
+                ->findAll($limit, $offset);
+        } else {
+            $datos = array (
+                'titulo' => 'No se ingreso ningun dato para la busqueda'
+            );
+            return view('vistaError',$datos);
+        }
 
 
     }
@@ -58,7 +72,7 @@ class BuscadorController extends BaseController{
 
     public function  buscarPorApellido($apellido, $limit, $offset, $filtroDeBusqueda) {
         $ordenes = $this->ordenDeReparacionModel
-            ->join('clientes', 'ordenDeReparacion.idCliente = clientes.id')
+            ->join('clientes', 'ordenDeReparacion.idCliente = clientes.id ')
             ->where('clientes.apellido', $apellido)
             ->orderBy('clientes.nombre', 'asc')
             ->findAll($limit, $offset);

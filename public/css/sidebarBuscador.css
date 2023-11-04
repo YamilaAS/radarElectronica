@@ -4,11 +4,11 @@
     color: var(--color-letras);
     width: 100%;
     max-width: 250px;
-
 }
+
 .tituloBuscador{
     color: var(--color-letras);
-    padding: 10px;
+    padding: 30px 10px 0 10px;
     font-family: "Poppins";
 }
 
@@ -28,22 +28,38 @@
     color: var(--color-letras);
 }
 
+.tituloFiltros {
+    padding: 10px 10px 0 10px;
+}
+
 .tituloCheck {
-    padding: 10px ;
+    padding: 10px 10px 0 10px;;
 }
 
 .check {
     margin: 5px 10px;
 }
 
-.inputFecha {
-    width: 100px;
-    display: inline-block;
-    margin: 10px;
-    color: var(--color-secundario);
+.divFecha {
+    width: 230px;
+    padding: 5px 10px 5px 0;
 }
 
+.inputFecha {
+    border-radius: 5px 5px 5px 5px;
+    background: var(--color-secundario);
+    color: var(--color-letras);
+    border-color:var(--color-secundario);
+    width: 230px;
+    padding: 5px 15px 5px 15px;
+    outline: none;
+    border: 0;
+    font-size: 1rem;
+}
 
+.inputFecha[type="date" ]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
 
 .buscarBtn {
     background: var(--color-secundario);

@@ -27,7 +27,6 @@
             </thead>
             <tbody>
             <?php foreach ($ordenes as $orden) : ?>
-
             <tr class="item">
                 <td ><?= $orden->id ?></td>
                 <td><?= $orden->apellido . ' ' . $orden->nombre ?></td>
@@ -38,6 +37,7 @@
                 <td></td>
                 <td></td>
             </tr>
+
             <?php endforeach; ?>
             </tbody>
         </table>
