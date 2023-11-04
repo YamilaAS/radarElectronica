@@ -91,10 +91,11 @@ class IngresoDeTrabajoController extends BaseController {
                 ],
             ],
             'telefono' => [
-                'rules' => 'required|numeric',
+                'rules' => 'required|numeric|min_length[6]',
                 'errors' => [
                     'required' => 'El campo teléfono es obligatorio',
-                    'numeric' => 'Solo puede ser caracteres numéricos '
+                    'numeric' => 'Solo puede ser caracteres numéricos ',
+                    'min_length' => 'La longitud mínima  es 6 números',
                 ],
             ],
             'sintoma' => [
