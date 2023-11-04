@@ -11,6 +11,7 @@
         <?= $this->include('templates/sidebarBuscador') ?>
     </div>
     <div class="listadoDeBusqueda">
+
         <?php if (isset($ordenes)  && $ordenes != null ): ?>
         <table class="table table-hover" id="tabla">
             <thead>
@@ -43,7 +44,27 @@
             </tbody>
         </table>
         <?php endif; ?>
+
+        <hr/>
+        <div>
+            <?php if (isset($cantidadOrdenes)  && $cantidadOrdenes == 0): ?>
+                <p>No se encontraron resultados</p>
+            <?php endif; ?>
+
+            <?php if (isset($total)  && $total > 0 ): ?>
+                <p>Se encontraron <?=$total?> resultados.</p>
+            <?php endif; ?>
+
+            <?php if (isset($paginaAnterior)  && $paginaAnterior != null ): ?>
+                <a style="text-align: left" href="<?=$paginaAnterior?>">Página anterior</a>
+            <?php endif; ?>
+
+            <?php if (isset($paginaSiguiente)  && $paginaSiguiente != null ): ?>
+                <a style="text-align: right" href="<?=$paginaSiguiente?>">Página siguiente</a>
+            <?php endif; ?>
+        </div>
     </div>
+
 
 </div>
 

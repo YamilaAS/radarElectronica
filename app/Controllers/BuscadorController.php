@@ -17,42 +17,36 @@ class BuscadorController extends BaseController{
         $this->clienteModel = new ClienteModel;
     }
 
-    public function verBuscardor () {
-        return view('vistaBuscador');
-    }
-
-    public function  procesarBusquedaEspecializada(){
-        $q = (string)$this->request->getPost('q');
-        $limit = (int)$this->request->getGet('limit');
-        $offset = (int)$this->request->getGet('offset');
-
-        if ($q != null) {
-            $ordenes = $this->clienteModel
-                ->join('ordenDeReparacion', 'ordenDeReparacion.idCliente = clientes.id')
-                ->where('clientes.apellido', $q)
-                ->orderBy('clientes.nombre', 'asc')
-                ->findAll($limit, $offset);
-        } else {
-            $datos = array (
-                'titulo' => 'No se ingreso ningun dato para la busqueda'
-            );
-            return view('vistaError',$datos);
-        }
-
-
-    }
-
     public function  procesarBusquedaRapida(){
         $q = (string)$this->request->getGet('q');
-        $limit = (int)$this->request->getGet('limit');
-        $offset = (int)$this->request->getGet('offset');
 
         if(is_numeric($q)){
             $orden = (int)$q;
             return $this->buscarPorOrden($orden);
         }else {
-            return $this->buscarPorApellido($q, $limit, $offset, null);
+            return redirect()->to('/buscar?apellido=' . $q);
         }
+    }
+
+    public function listarResultados() {
+        $limit = (int)$this->request->getGet('limit');
+        $offset = (int)$this->request->getGet('offset');
+
+        $apellido = (string)$this->request->getGet('apellido');
+        $aparato = (array)$this->request->getGet('aparato');
+        $estado = (array)$this->request->getGet('estado');
+        $fechaDesde = (string)$this->request->getGet('fechaDesde');
+        $fechaHasta = (string)$this->request->getGet('fechaHasta');
+
+        $filtros = array(
+            'aparato' => $aparato,
+            'estado' => $estado,
+            'fechaDesde' => $fechaDesde,
+            'fechaHasta' => $fechaHasta
+        );
+
+        return $this->buscarPorApellido($apellido, $limit, $offset, $filtros);
+
     }
 
     public function  buscarPorOrden($idOrdenDeReparacion) {
@@ -69,42 +63,52 @@ class BuscadorController extends BaseController{
     }
 
     public function  buscarPorApellido($apellido, $limit, $offset, $filtroDeBusqueda) {
-        $ordenes = $this->ordenDeReparacionModel
-            ->select('*,ordenDeReparacion.id as ordenId')
-            ->join('clientes', 'ordenDeReparacion.idCliente = clientes.id ')
-            ->where('clientes.apellido', $apellido)
-            ->orderBy('clientes.nombre', 'asc')
-            ->findAll($limit, $offset);
+        $ordenes = [];
+        $paginaAnterior = null;
+        $paginaSiguiente = null;
+
+        $ordenes = $this->generarBusqueda($apellido, $filtroDeBusqueda)->findAll($limit, $offset);
+        $total = $this->generarBusqueda($apellido, $filtroDeBusqueda)->countAllResults();
 
         $cantidadOrdenes = sizeof($ordenes);
         if ($cantidadOrdenes > 0) {
-            $paginaAnterior = null;
-            $paginaSiguiente = null;
-
-            if ($cantidadOrdenes == $limit) {
+            if ($cantidadOrdenes == $limit && $total > $offset + $limit) {
                 $nuevoOffset = $offset + $limit;
-                $paginaSiguiente = "?q=" . $apellido . "&limit=" . $limit . "&offset=" . $nuevoOffset;
+                $paginaSiguiente = "?apellido=" . $apellido . "&limit=" . $limit . "&offset=" . $nuevoOffset;
             }
             if ($offset > 0) {
                 $nuevoOffset = $offset - $limit;
                 if ($nuevoOffset < 0) {
                     $nuevoOffset = 0;
                 }
-                $paginaAnterior = "?q=" . $apellido . "&limit=" . $limit . "&offset=" . $nuevoOffset;
+                $paginaAnterior = "?apellido=" . $apellido . "&limit=" . $limit . "&offset=" . $nuevoOffset;
             }
-
-            $datos = array(
-                'paginaAnterior' => $paginaAnterior,
-                'paginaSiguiente' => $paginaSiguiente,
-                'ordenes' => $ordenes
-            );
-            return view('vistaBuscador', $datos);
-        } else {
-            $datos = array (
-                'titulo' => 'Orden no encontrada el apellido ' . $apellido
-            );
-            return view('vistaError',$datos);
         }
+
+        $datos = array(
+            'paginaAnterior' => $paginaAnterior,
+            'paginaSiguiente' => $paginaSiguiente,
+            'ordenes' => $ordenes,
+            'cantidadOrdenes' => $cantidadOrdenes,
+            'total' => $total
+        );
+
+        return view('vistaBuscador', $datos);
     }
+
+    private function generarBusqueda($apellido, $filtroDeBusqueda) {
+        $busqueda = $this->ordenDeReparacionModel
+            ->select('*,ordenDeReparacion.id as ordenId')
+            ->join('clientes', 'ordenDeReparacion.idCliente = clientes.id ');
+
+        if (isset($apellido) && $apellido != '') {
+            $busqueda->where('clientes.apellido', $apellido)
+                ->orderBy('clientes.nombre', 'asc');
+        } else {
+            $busqueda->orderBy('ordenDeReparacion.fechaIngreso', 'desc');
+        }
+        return $busqueda;
+    }
+
 
 }
