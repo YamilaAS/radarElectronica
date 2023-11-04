@@ -14,6 +14,7 @@ class InformeDeReparacionController extends BaseController{
     private ClienteModel $clienteModel;
     private SalidaDeTrabajoModel $salidaDeTrabajoModel;
     private InformeDeReparacionModel  $informeDeReparacionModel;
+    protected $helpers = ['form'];
 
     public function __construct() {
         $this->ordenDeReparacionModel = new OrdenDeReparacionModel;

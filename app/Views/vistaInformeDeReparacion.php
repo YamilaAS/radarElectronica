@@ -1,5 +1,5 @@
 <? php ?>
-
+<?php validation_list_errors(); ?>
 <?= $this->extend('templates/main.php'); ?>
 
 <?= $this->section('title') ?>Informe de Reparación<?= $this->endSection('title') ?>
@@ -77,13 +77,15 @@
             <div class="form-group row">
                 <label for="detalle" class="col-sm-2 col-form-label">Detalle</label>
                 <div class="col-sm-10">
-                    <input name="detalle" class="form-control-plaintext inputForm" id="detalle" value="">
+                    <input name="detalle" class="form-control-plaintext inputForm" id="detalle" value="<?php echo set_value('detalle') ?>">
+                    <p class="error"><?php echo validation_show_error('detalle'); ?></p>
                 </div>
             </div>
             <div class="form-group row importe">
                 <label for="importe" class="col-sm-2 col-form-label">Importe</label>
                 <div class="col-sm-10">
-                    <input name="importe" class="form-control-plaintext inputForm" id="importe" value="">
+                    <input name="importe" class="form-control-plaintext inputForm" id="importe" value="<?php echo set_value('importe') ?>">
+                    <p class="error"><?php echo validation_show_error('importe'); ?></p>
                 </div>
             </div>
             <div class="d-grid gap-2 d-flex justify-content-start">

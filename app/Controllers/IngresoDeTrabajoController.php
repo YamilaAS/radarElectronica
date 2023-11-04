@@ -66,7 +66,7 @@ class IngresoDeTrabajoController extends BaseController {
             'apellido' => [
                 'rules' => 'required|regex_match[/^[a-zñáéíóúüA-ZÑÁÉÍÓÚÜ ]*$/u]|min_length[1]|max_length[100]',
                 'errors' => [
-                    'required' => 'El campo nombre del titular es obligatorio',
+                    'required' => 'El campo apellido del titular es obligatorio',
                     'min_length' => 'La longitud mínima  es 1',
                     'max_length' => 'La longitud máxima es 100',
                     'regex_match' => 'Solo puede ingresar letras, espacio y acento'
