@@ -12,7 +12,7 @@
     </div>
     <div class="listadoDeBusqueda">
         <?php if (isset($ordenes)  && $ordenes != null ): ?>
-        <table class="table table-hover">
+        <table class="table table-hover" id="tabla">
             <thead>
             <tr>
                 <th>ORDEN</th>
@@ -27,7 +27,8 @@
             </thead>
             <tbody>
             <?php foreach ($ordenes as $orden) : ?>
-            <tr class="item">
+
+            <tr class="item" onClick=location.href="<?php echo base_url('/ordenDeReparacion/').$orden->ordenId; ?>";>
                 <td ><?= $orden->ordenId ?></td>
                 <td><?= $orden->apellido . ' ' . $orden->nombre ?></td>
                 <td><?= $orden->aparato ?></td>
@@ -47,3 +48,9 @@
 </div>
 
 <?= $this->endSection('contenido') ?>
+
+<script type="text/javascript">
+    new DataTable('#example', {
+        select: true
+    });
+</script>
