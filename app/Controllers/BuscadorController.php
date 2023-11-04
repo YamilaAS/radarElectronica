@@ -27,9 +27,9 @@ class BuscadorController extends BaseController{
         $offset = (int)$this->request->getGet('offset');
 
         if ($q != null) {
-            $ordenes = $this->ordenDeReparacionModel
-                ->join('clientes', 'ordenDeReparacion.idCliente = clientes.id as idCliente')
-                ->where('clientes.apellido', $apellido)
+            $ordenes = $this->clienteModel
+                ->join('ordenDeReparacion', 'ordenDeReparacion.idCliente = clientes.id')
+                ->where('clientes.apellido', $q)
                 ->orderBy('clientes.nombre', 'asc')
                 ->findAll($limit, $offset);
         } else {
@@ -53,9 +53,7 @@ class BuscadorController extends BaseController{
         }else {
             return $this->buscarPorApellido($q, $limit, $offset, null);
         }
-
     }
-
 
     public function  buscarPorOrden($idOrdenDeReparacion) {
         $ordenDeReparacion = $this->ordenDeReparacionModel->find($idOrdenDeReparacion);
@@ -72,6 +70,7 @@ class BuscadorController extends BaseController{
 
     public function  buscarPorApellido($apellido, $limit, $offset, $filtroDeBusqueda) {
         $ordenes = $this->ordenDeReparacionModel
+            ->select('*,ordenDeReparacion.id as ordenId')
             ->join('clientes', 'ordenDeReparacion.idCliente = clientes.id ')
             ->where('clientes.apellido', $apellido)
             ->orderBy('clientes.nombre', 'asc')

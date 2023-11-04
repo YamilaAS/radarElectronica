@@ -28,7 +28,7 @@
             <tbody>
             <?php foreach ($ordenes as $orden) : ?>
             <tr class="item">
-                <td ><?= $orden->id ?></td>
+                <td ><?= $orden->ordenId ?></td>
                 <td><?= $orden->apellido . ' ' . $orden->nombre ?></td>
                 <td><?= $orden->aparato ?></td>
                 <td><?= $orden->marca ?></td>
