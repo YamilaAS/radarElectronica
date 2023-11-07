@@ -14,7 +14,7 @@
         <?php endif; ?>
 
         <a class="itmesService" href="<?= $linkContrato ?>" target="_blank">Imprimir Contrato</a>
-        <a class="itmesService" href="#">Modificar</a>
+        <a class="itmesService" href="<?= base_url('ordenDeReparacion/'.$ordenDeReparacion->id.'/modificar/'  )?>">Modificar</a>
         <a class="itmesService" href="#">Archivar</a>
         <a class="itmesService" href="<?= base_url('ordenDeReparacion/'.$ordenDeReparacion->id.'/borrar/'  )?>">Borrar</a>
 

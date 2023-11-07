@@ -34,3 +34,7 @@ $routes->get('/busquedaRapida', 'BuscadorController::procesarBusquedaRapida');
 
 //Borrar Orden de reparacion
 $routes->get('/ordenDeReparacion/(:num)/borrar', 'OrdenDeReparacionController::borrarOrdenDeReparacion/$1');
+
+//Modificar Orden de Reparacion
+$routes->get('/ordenDeReparacion/(:num)/modificar', 'OrdenDeReparacionController::modificarOrdenDeReparacion/$1');
+$routes->post('/ordenDeReparacion/(:num)/modificar', 'OrdenDeReparacionController::procesarModificionOrdenDeReparacion');

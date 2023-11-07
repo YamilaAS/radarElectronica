@@ -19,6 +19,7 @@ class OrdenDeReparacionController extends BaseController
     private ClienteModel $clienteModel;
     private SalidaDeTrabajoModel $salidaDeTrabajoModel;
     private InformeDeReparacionModel $informeDeReparacionModel;
+    protected $helpers = ['form'];
 
     public function __construct()
     {
@@ -70,7 +71,8 @@ class OrdenDeReparacionController extends BaseController
         PDFHelper::mostrarPDF($contrato);
     }
 
-    public function borrarOrdenDeReparacion (int $idOrdenDeReparacion){
+    public function borrarOrdenDeReparacion(int $idOrdenDeReparacion)
+    {
         $this->db->transStart();
 
         $salidaDeTrabajo = $this->salidaDeTrabajoModel->where('idOrdenDeReparacion', $idOrdenDeReparacion)->first();
@@ -85,7 +87,8 @@ class OrdenDeReparacionController extends BaseController
             $informeDeReparacion = $this->informeDeReparacionModel->where('idOrdenDeReparacion', $idOrdenDeReparacion)->first();
             if (isset($informeDeReparacion) && $informeDeReparacion != null) {
                 $this->informeDeReparacionModel->where('idOrdenDeReparacion', $idOrdenDeReparacion)->delete();
-            } if ($this->db->transFailure) {
+            }
+            if ($this->db->transFailure) {
                 $this->db->transRollback();
                 return "error al eliminar el informe de reparación ";
             } else {
@@ -99,6 +102,52 @@ class OrdenDeReparacionController extends BaseController
                 }
             }
         }
-
     }
+
+    private function buscarOrdenDeReparacion(int $idOrdenDeReparacion)
+    {
+        $ordenDeReparacion = $this->ordenDeReparacionModel->find($idOrdenDeReparacion);
+        if ($ordenDeReparacion != null) {
+            $cliente = $this->clienteModel->find($ordenDeReparacion->idCliente);
+            $salidaDeTrabajo = $this->salidaDeTrabajoModel->where('idOrdenDeReparacion', $idOrdenDeReparacion)->first();
+            $informeDeReparacion = $this->informeDeReparacionModel->where('idOrdenDeReparacion', $idOrdenDeReparacion)->first();
+
+            if (empty($salidaDeTrabajo)) {
+                $salidaDeTrabajo = null;
+            }
+
+            if (empty($informeDeReparacion)) {
+                $informeDeReparacion = null;
+            }
+
+            $datos = [
+                "cliente" => $cliente,
+                "ordenDeReparacion" => $ordenDeReparacion,
+                "linkContrato" => "/ordenDeReparacion/" . $idOrdenDeReparacion . "/contrato",
+                "salidaDeTrabajo" => $salidaDeTrabajo,
+                "informeDeReparacion" => $informeDeReparacion
+            ];
+
+            return $datos;
+        } else {
+            $datos = array(
+                'titulo' => 'Orden no encontrada'
+            );
+            return view('vistaError', $datos);
+        }
+    }
+
+    public function modificarOrdenDeReparacion(int $idOrdenDeReparacion){
+        $datosOrdenDeReparacion = $this->buscarOrdenDeReparacion($idOrdenDeReparacion);
+
+        if ($datosOrdenDeReparacion != null) {
+           return view('vistaModificarOrdenDeReparacion', $datosOrdenDeReparacion);
+        } else {
+            $datos = array(
+                'titulo' => 'Orden no encontrada'
+            );
+            return view('vistaError', $datos);
+        }
+    }
+
 }
