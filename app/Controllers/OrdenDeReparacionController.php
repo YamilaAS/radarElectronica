@@ -11,6 +11,7 @@ use App\Models\ClienteModel;
 use App\Entities\Cliente;
 use App\Models\SalidaDeTrabajoModel;
 use App\Entities\SalidaDeTrabajo;
+use Config\Database;
 
 class OrdenDeReparacionController extends BaseController
 {
@@ -25,6 +26,7 @@ class OrdenDeReparacionController extends BaseController
         $this->clienteModel = new ClienteModel;
         $this->salidaDeTrabajoModel = new SalidaDeTrabajoModel;
         $this->informeDeReparacionModel = new InformeDeReparacionModel;
+        $this->db = Database::connect();
     }
 
     public function verOrdenDeReparacion(int $idOrdenDeReparacion)
@@ -68,4 +70,35 @@ class OrdenDeReparacionController extends BaseController
         PDFHelper::mostrarPDF($contrato);
     }
 
+    public function borrarOrdenDeReparacion (int $idOrdenDeReparacion){
+        $this->db->transStart();
+
+        $salidaDeTrabajo = $this->salidaDeTrabajoModel->where('idOrdenDeReparacion', $idOrdenDeReparacion)->first();
+        if (isset($salidaDeTrabajo) && $salidaDeTrabajo != null) {
+            $this->salidaDeTrabajoModel->where('idOrdenDeReparacion', $idOrdenDeReparacion)->delete();
+        }
+
+        if ($this->db->transFailure) {
+            $this->db->transRollback();
+            return "error al eliminar el informe de salida de trabajo ";
+        } else {
+            $informeDeReparacion = $this->informeDeReparacionModel->where('idOrdenDeReparacion', $idOrdenDeReparacion)->first();
+            if (isset($informeDeReparacion) && $informeDeReparacion != null) {
+                $this->informeDeReparacionModel->where('idOrdenDeReparacion', $idOrdenDeReparacion)->delete();
+            } if ($this->db->transFailure) {
+                $this->db->transRollback();
+                return "error al eliminar el informe de reparación ";
+            } else {
+                $this->ordenDeReparacionModel->delete($idOrdenDeReparacion);
+
+                $ok = $this->db->transComplete();
+                if ($ok) {
+                    return redirect()->to('/');
+                } else {
+                    return "error al intentar eliminar orden de reparacion" . $idOrdenDeReparacion;
+                }
+            }
+        }
+
+    }
 }

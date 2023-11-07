@@ -32,3 +32,5 @@ $routes->get('/buscar', 'BuscadorController::procesarBusqueda');
 //Buscar
 $routes->get('/busquedaRapida', 'BuscadorController::procesarBusquedaRapida');
 
+//Borrar Orden de reparacion
+$routes->get('/ordenDeReparacion/(:num)/borrar', 'OrdenDeReparacionController::borrarOrdenDeReparacion/$1');
