@@ -1,0 +1,18 @@
+.sidebarService, .detalleDeOrdenDeReparacion{
+    height: 125%;
+}
+
+.labelVariable {
+    padding-left: 10px;
+
+}
+
+.btnRegistrar {
+    background: var(--color-principal);
+    margin-top: 10px;
+    border: var(--color-principal);
+}
+
+.btnRegistrar:hover {
+    background: var(--color-secundario);
+}

@@ -28,8 +28,9 @@
 }
 
 .error {
-    color:#DB4239;
+    color: #d94d44;
     margin-left: 60px;
+    font-size: small;
 }
 
 
