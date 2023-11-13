@@ -11,7 +11,10 @@ use App\Models\ClienteModel;
 use App\Entities\Cliente;
 use App\Models\SalidaDeTrabajoModel;
 use App\Entities\SalidaDeTrabajo;
+use CodeIgniter\Database\Exceptions\DatabaseException;
 use Config\Database;
+use Exception;
+use Throwable;
 
 class OrdenDeReparacionController extends BaseController
 {
@@ -137,11 +140,12 @@ class OrdenDeReparacionController extends BaseController
         }
     }
 
-    public function modificarOrdenDeReparacion(int $idOrdenDeReparacion){
+    public function modificarOrdenDeReparacion(int $idOrdenDeReparacion)
+    {
         $datosOrdenDeReparacion = $this->buscarOrdenDeReparacion($idOrdenDeReparacion);
 
         if ($datosOrdenDeReparacion != null) {
-           return view('vistaModificarOrdenDeReparacion', $datosOrdenDeReparacion);
+            return view('vistaModificarOrdenDeReparacion', $datosOrdenDeReparacion);
         } else {
             $datos = array(
                 'titulo' => 'Orden No Encontrada'
@@ -150,12 +154,8 @@ class OrdenDeReparacionController extends BaseController
         }
     }
 
-
-
-    public function procesarModificarOrdenDeReparacion()
-    {
-        $validacion = service('validation');
-        $validacion->setRules([
+    private function getValidacionesOrdenYCliente(){
+        return [
             'aparato' => [
                 'rules' => 'required|regex_match[/^[a-zñáéíóúüA-ZÑÁÉÍÓÚÜ 1234567890]*$/u]|min_length[1]|max_length[100]',
                 'errors' => [
@@ -240,7 +240,13 @@ class OrdenDeReparacionController extends BaseController
                     'required' => 'El campo seña es obligatorio',
                     'decimal' => 'Solo puede ingresar números'
                 ],
-            ],
+            ]
+        ];
+    }
+
+    private function getValidacionesInformeDeReparacion() {
+        return [
+
             'detalle' => [
                 'rules' => 'required',
                 'errors' => [
@@ -253,35 +259,64 @@ class OrdenDeReparacionController extends BaseController
                     'required' => 'El campo importe es obligatorio',
                     'decimal' => 'Solo puede ingresar números'
                 ],
-            ],
+            ]
+        ];
+    }
+
+    private function getValidacionesSalidaDeTrabajo() {
+        return [
             'condicion' => [
                 'rules' => 'required',
                 'errors' => [
                     'required' => 'El campo aparato es obligatorio'
                 ]
             ]
-        ]);
+        ];
+    }
+
+    public function procesarModificarOrdenDeReparacion()
+    {
+        $idOrdenDeReparacion = (int)$this->request->getPost('codigo');
+        $idCliente = (int)$this->request->getPost('idCliente');
+        $idInformeDeReparacion = (int)$this->request->getPost('idInformeDeReparacion');
+        $idSalidaDeTrabajo = (int)$this->request->getPost('idSalidaDeTrabajo');
+
+        $validacion = service('validation');
+        $validacion->setRules($this->getValidacionesOrdenYCliente());
 
         if (!$validacion->withRequest($this->request)->run()) {
+            session()->setFlashData("errorPrincipal", "No se actualizaron los datos: Error en los datos de la orden");
             return redirect()->back()->withInput()->with('errors', $validacion->getErrors());
         }
 
-        $idOrdenDeReparacion = (int)$this->request->getPost('codigo');
+        if (isset($idInformeDeReparacion) && $idInformeDeReparacion != null) {
+            $validacion->setRules($this->getValidacionesInformeDeReparacion());
+             if (!$validacion->withRequest($this->request)->run()) {
+                 session()->setFlashData("errorPrincipal", "No se actualizaron los datos: Error en los datos del informe");
+                 return redirect()->back()->withInput()->with('errors', $validacion->getErrors());
+             }
+        }
+
+        if (isset($idSalidaDeTrabajo) && $idSalidaDeTrabajo != null) {
+            $validacion->setRules($this->getValidacionesSalidaDeTrabajo());
+            if (!$validacion->withRequest($this->request)->run()) {
+                session()->setFlashData("errorPrincipal", "No se actualizaron los datos: Error en los datos la salida");
+                return redirect()->back()->withInput()->with('errors', $validacion->getErrors());
+            }
+        }
+
         $aparato = (string)$this->request->getPost('aparato');
         $marca = (string)$this->request->getPost('marca');
         $modelo = (string)$this->request->getPost('modelo');
         $accesorios = (string)$this->request->getPost('accesorios');
-        $idCliente = (int)$this->request->getPost('idCliente');
         $apellido = (string)$this->request->getPost('apellido');
         $nombre = (string)$this->request->getPost('nombre');
         $domicilio = (string)$this->request->getPost('domicilio');
         $telefono = (int)$this->request->getPost('telefono');
         $sintoma = (string)$this->request->getPost('sintoma');
         $senia = (float)$this->request->getPost('senia');
-        $idInformeDeReparacion = (int)$this->request->getPost('idInformeDeReparacion');
         $detalle = (string)$this->request->getPost('detalle');
         $importe = (int)$this->request->getPost('importe');
-        $idSalidaDeTrabajo = (int)$this->request->getPost('idSalidaDeTrabajo');
         $condicion = (string)$this->request->getPost('condicion');
 
         $datosParaGuardarCliente = array(
@@ -300,55 +335,71 @@ class OrdenDeReparacionController extends BaseController
             'senia' => $senia
         );
 
-        $datosParaGuardarInformeDeReparacion = array (
+        $datosParaGuardarInformeDeReparacion = array(
             'detalle' => $detalle,
             'importe' => $importe
         );
 
-        $datosParaGuardarInformeDeSalida = array (
+        $datosParaGuardarInformeDeSalida = array(
             'condicion' => $condicion
         );
 
-        $this->db->transStart();
-        $this->clienteModel->update($idCliente, $datosParaGuardarCliente);
+        $error = null;
 
-        if ($this->db->transFailure) {
-            $this->db->transRollback();
-            return "error insertando cliente";
+        try {
+            $this->db->transStart();
+            $this->clienteModel->update($idCliente, $datosParaGuardarCliente);
+
+
+
+            if ($this->db->transFailure) {
+                $this->db->transRollback();
+                throw new Exception("Error insertando cliente");
+            }
+
+            $datosParaGuardarOrdenDeReparacion['idCliente'] = $idCliente;
+            $this->ordenDeReparacionModel->update($idOrdenDeReparacion, $datosParaGuardarOrdenDeReparacion);
+
+            if ($this->db->transFailure) {
+                $this->db->transRollback();
+                throw new Exception("Error actualizando los datos de la orden de reparación");
+            }
+
+            if (isset($idInformeDeReparacion) && $idInformeDeReparacion != null) {
+                $this->informeDeReparacionModel->update($idInformeDeReparacion, $datosParaGuardarInformeDeReparacion);
+
+                if ($this->db->transFailure) {
+                    $this->db->transRollback();
+                    throw new Exception("Error actualizando los datos del informe de reparación");
+                }
+            }
+
+            if (isset($idSalidaDeTrabajo) && $idSalidaDeTrabajo != null) {
+                $this->salidaDeTrabajoModel->update($idSalidaDeTrabajo, $datosParaGuardarInformeDeSalida);
+
+                if ($this->db->transFailure) {
+                    $this->db->transRollback();
+                    throw new Exception("Error actualizando los datos del informe de salida de trabajo");
+                }
+            }
+
+            $ok = $this->db->transComplete();
+
+            if (!$ok) {
+                throw new Exception("Error insertando orden de reparacion");
+            }
+
+        } catch (Throwable $e) {
+            $error = $e->getMessage();
         }
 
-        $datosParaGuardarOrdenDeReparacion['idCliente'] = $idCliente;
-        $this->ordenDeReparacionModel->update($idOrdenDeReparacion, $datosParaGuardarOrdenDeReparacion);
-
-        if ($this->db->transFailure) {
-            $this->db->transRollback();
-            return "error actualizando los datos de la orden de reparación";
+        if($error != null){
+            session()->setFlashData("errorPrincipal", $error);
+            return redirect()->back();
         }
 
-        if(isset($idInformeDeReparacion) && $idInformeDeReparacion != null ){
-            $this->informeDeReparacionModel->update($idInformeDeReparacion, $datosParaGuardarInformeDeReparacion);
-        }
-
-        if ($this->db->transFailure) {
-            $this->db->transRollback();
-            return "error actualizando los datos del informe de reparación";
-        }
-
-        if(isset($idSalidaDeTrabajo) && $idSalidaDeTrabajo != null ){
-            $this->salidaDeTrabajoModel->update($idSalidaDeTrabajo, $datosParaGuardarInformeDeSalida);
-        }
-
-        if ($this->db->transFailure) {
-            $this->db->transRollback();
-            return "error actualizando los datos del informe de salida de trabajo";
-        }
-
-        $ok = $this->db->transComplete();
-        if ($ok) {
-            return redirect()->to('/ordenDeReparacion/' . $idOrdenDeReparacion);
-        } else {
-            return "error insertando orden de reparacion";
-        }
+        $url = '/ordenDeReparacion/' . $idOrdenDeReparacion;
+        return redirect()->to($url);
 
     }
 

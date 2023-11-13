@@ -1,5 +1,5 @@
 .sidebarService, .detalleDeOrdenDeReparacion{
-    height: 130%;
+    height: 140%;
 }
 
 .labelVariable {
@@ -15,4 +15,10 @@
 
 .btnRegistrar:hover {
     background: var(--color-secundario);
+}
+
+.alert {
+    background: #d94d44;
+    color: var(--color-letras);
+    border-color: #d94d44;
 }

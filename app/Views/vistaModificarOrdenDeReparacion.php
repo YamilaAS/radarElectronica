@@ -22,6 +22,13 @@
 
     <div class="detalleDeOrdenDeReparacion">
         <form action="<?php echo base_url('/modificar') ?>" method="post">
+
+            <?php
+            if(session()->has('errorPrincipal')) {
+                echo "<div class='alert alert-danger '>" . session()->getFlashdata('errorPrincipal') . "</div>";
+            }
+            ?>
+
             <div class="tituloDetalleDeOrden">
                 <h1>Modificar orden de trabajo</h1>
             </div>
