@@ -16,6 +16,7 @@ class OrdenDeReparacionModel extends Model {
         'idCliente',
         'sintoma',
         'senia',
+        'archivada'
 
     ];
 

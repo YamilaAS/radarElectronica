@@ -109,9 +109,15 @@
             <input name="codigo"  type="hidden" value="<?=$ordenDeReparacion->id ?> ">
             <div class="form-group row condicion">
                 <label for="condicion" class="col-sm-2 col-form-label labelNombre">CONDICIÓN</label>
-                <div class="col-sm-10">
-                    <textarea name="condicion" class="form-control-plaintext textareaCondicion" rows="1" id="condicion" value="" ></textarea>
+                <div class="form-check check">
+                    <input class="form-check-input"  name="condicion" type="radio" id="cuentaCorriente" value="cuentaCorriente">
+                    <label class="form-check-label" for="cuentaCorriente">Cuenta Corriente</label>
                 </div>
+                <div class="form-check check">
+                    <input class="form-check-input" name="condicion" type="radio" id="efectivo" value="efectivo" checked>
+                    <label class="form-check-label" for="efectivo">Efectivo</label>
+                </div>
+
             </div>
             <div class="d-grid gap-2 d-flex justify-content-start">
                 <button type="submit" class="btn btn-primary btn-block btnRegistrar">Salida de Trabajo</button>

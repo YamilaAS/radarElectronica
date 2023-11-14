@@ -91,6 +91,24 @@
     background-color:  var(--color-secundario);
 
 }
+@media only screen and (max-width: 600px) {
+    .inputBuscador {
+        width: 200px;
+    }
+    .header .nav-link {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1108px) {
+    .inputBuscador {
+        width: 250px;
+    }
+    .header .nav-link {
+        display: none;
+    }
+}
+
+
 
 
 

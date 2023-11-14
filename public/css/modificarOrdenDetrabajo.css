@@ -1,6 +1,21 @@
-.sidebarService, .detalleDeOrdenDeReparacion{
-    height: 140%;
+.body {
+    display: flex;
 }
+
+.sidebar {
+    background: var(--color-principal);
+    color: var(--color-letras);
+    width: 100%;
+    max-width: 250px;
+}
+
+.contenido {
+    margin: 0 auto;
+    padding: 30px;
+    color: var(--color-letras);
+    font-family: Poppins;
+}
+
 
 .labelVariable {
     padding-left: 10px;
@@ -17,8 +32,15 @@
     background: var(--color-secundario);
 }
 
-.alert {
+.alert-danger {
     background: #d94d44;
     color: var(--color-letras);
     border-color: #d94d44;
 }
+
+.alert-info {
+    background: var(--color-terciario);
+    color: var(--color-letras);
+    border-color: var(--color-terciario);
+}
+

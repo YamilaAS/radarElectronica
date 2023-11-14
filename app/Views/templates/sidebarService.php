@@ -15,7 +15,13 @@
 
         <a class="itmesService" href="<?= $linkContrato ?>" target="_blank">Imprimir Contrato</a>
         <a class="itmesService" href="<?= base_url('ordenDeReparacion/'.$ordenDeReparacion->id.'/modificar/'  )?>">Modificar</a>
-        <a class="itmesService" href="#">Archivar</a>
+
+        <?php if (isset($ordenDeReparacion->archivada) && $ordenDeReparacion->archivada == 'archivado'): ?>
+            <a class="itmesService" href="<?= base_url('ordenDeReparacion/'.$ordenDeReparacion->id.'/desarchivar'  )?>">Desarchivar</a>
+        <?php else: ?>
+            <a class="itmesService" href="<?= base_url('ordenDeReparacion/'.$ordenDeReparacion->id.'/archivar'  )?>">Archivar</a>
+        <?php endif; ?>
+
         <a class="itmesService" href="<?= base_url('ordenDeReparacion/'.$ordenDeReparacion->id.'/borrar/'  )?>">Borrar</a>
 
     </nav>

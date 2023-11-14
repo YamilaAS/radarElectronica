@@ -11,6 +11,11 @@
         </div>
 
         <div class="detalleDeOrdenDeReparacion">
+            <?php
+            if (isset($ordenDeReparacion->archivada) && $ordenDeReparacion->archivada == 'archivado'){
+                echo "<div class='alert alert-info  '>Orden Archivada.</div>";
+            }
+            ?>
             <div class="tituloDetalleDeOrden">
                 <h1>Detalle de orden de trabajo</h1>
             </div>
@@ -140,8 +145,16 @@
                     <div class="form-group row">
                         <label for="condicion" class="col-sm-2 col-form-label labelNombre">Condición</label>
                         <div class="col-sm-10">
-                            <label for="senia"
-                                   class="col-sm-2 col-form-label labelVariable"> <?= $salidaDeTrabajo->condicion ?></label>
+                            <label for="senia" class="col-sm-2 col-form-label labelVariable">
+                                <?php
+                                    $resultado = $salidaDeTrabajo->condicion;
+                                    if($resultado == 'cuentaCorriente'){
+                                        echo 'Cuenta Corriente';
+                                    } else {
+                                        echo 'Efectivo';
+                                    }
+
+                                ?></label>
                         </div>
                     </div>
                 <?php endif; ?>

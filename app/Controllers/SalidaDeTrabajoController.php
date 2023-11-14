@@ -44,20 +44,6 @@ class SalidaDeTrabajoController extends BaseController {
     }
 
     public function procesarSalidaDeTrabajo() {
-        $validacion = service('validation');
-        $validacion->setRules([
-            'condicion' => [
-                'rules' => 'required',
-                'errors' => [
-                    'required' => 'El campo aparato es obligatorio'
-                ]
-            ]
-        ]);
-
-        if (!$validacion->withRequest($this->request)->run()) {
-            return redirect()->back()->withInput()->with('errors', $validacion->getErrors());
-        }
-
         $condicion = (string)$this->request->getPost('condicion');
         $idOrdenDeReparacion = (int)$this->request->getPost('codigo');
 

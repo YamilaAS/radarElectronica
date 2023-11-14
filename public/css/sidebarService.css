@@ -1,10 +1,10 @@
 .sidebarService {
-    position: absolute;
-    background: var(--color-principal);
-    color: var(--color-letras);
-    width: 100%;
-    max-width: 250px;
-    height: 120vh;
+    /* position: absolute;
+     background: var(--color-principal);
+     color: var(--color-letras);
+     width: 100%;
+     max-width: 250px;
+     height: 120vh;*/
 }
 
 .tituloService {

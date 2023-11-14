@@ -38,3 +38,7 @@ $routes->get('/ordenDeReparacion/(:num)/borrar', 'OrdenDeReparacionController::b
 //Modificar Orden de Reparacion
 $routes->get('/ordenDeReparacion/(:num)/modificar', 'OrdenDeReparacionController::modificarOrdenDeReparacion/$1');
 $routes->post('/modificar', 'OrdenDeReparacionController::procesarModificarOrdenDeReparacion');
+
+//Archivar
+$routes->get('/ordenDeReparacion/(:num)/archivar', 'OrdenDeReparacionController::archivarOrdenDeReparacion/$1');
+$routes->get('/ordenDeReparacion/(:num)/desarchivar', 'OrdenDeReparacionController::desarchivarOrdenDeReparacion/$1');

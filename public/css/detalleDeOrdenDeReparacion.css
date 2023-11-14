@@ -3,6 +3,14 @@
     height: 100%;
 }
 
+.sidebarService {
+    background: var(--color-principal);
+    color: var(--color-letras);
+    width: 100%;
+    max-width: 250px;
+    height: 120vh;
+}
+
 .detalleDeOrdenDeReparacion {
     margin: 0 auto;
     /*width: 700px;*/

@@ -37,6 +37,10 @@
                 <input class="form-check-input" name="estado" type="radio" id="entregado" value="entregado">
                 <label class="form-check-label" for="entregado">Entregado</label>
             </div>
+            <div class="form-check check">
+                <input class="form-check-input"  name="estado" type="radio" id="archivado" value="archivado">
+                <label class="form-check-label" for="archivado">Archivado</label>
+            </div>
 
             <h5 class="tituloCheck">FECHA DE INGRESO</h5>
 

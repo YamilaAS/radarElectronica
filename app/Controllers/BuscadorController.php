@@ -130,6 +130,9 @@ class BuscadorController extends BaseController{
                 case "entregado":
                     $busqueda->where("salidaDeTrabajo.fechaSalida <>", "null");
                     break;
+                case "archivado":
+                    $busqueda->where("ordenDeReparacion.archivada <>", "null");
+                    break;
             }
         }
 

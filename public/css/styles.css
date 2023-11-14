@@ -15,7 +15,7 @@
     --color-secundario: #365679;
     --color-fondo: #0B1320;
     --color-letras: #FFFFFF;
-    --color-terciario: #ff7a00;
+    --color-terciario: #ad7a3d;
 }
 
 body {
@@ -29,3 +29,4 @@ a.disabled {
     cursor: default;
     color: var(--color-secundario);
 }
+

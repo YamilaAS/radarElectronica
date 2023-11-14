@@ -17,6 +17,7 @@ class OrdenDeReparacion extends Entity
     protected string $telefono;
     protected string $sintoma;
     protected float $senia;
+    protected string $archivada;
 
 
     protected $casts = [

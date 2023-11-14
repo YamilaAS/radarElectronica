@@ -350,8 +350,6 @@ class OrdenDeReparacionController extends BaseController
             $this->db->transStart();
             $this->clienteModel->update($idCliente, $datosParaGuardarCliente);
 
-
-
             if ($this->db->transFailure) {
                 $this->db->transRollback();
                 throw new Exception("Error insertando cliente");
@@ -401,6 +399,36 @@ class OrdenDeReparacionController extends BaseController
         $url = '/ordenDeReparacion/' . $idOrdenDeReparacion;
         return redirect()->to($url);
 
+    }
+
+    public function archivarOrdenDeReparacion(int $idOrdenDeReparacion){
+       $ordenDeReparacion = $this->buscarOrdenDeReparacion($idOrdenDeReparacion);
+
+        if (isset($ordenDeReparacion) && $ordenDeReparacion != null) {
+            $datos = array(
+                'archivada' => 'archivado'
+            );
+
+            $this->ordenDeReparacionModel->update($idOrdenDeReparacion, $datos);
+        }
+
+        $url = '/ordenDeReparacion/' . $idOrdenDeReparacion;
+        return redirect()->to($url);
+    }
+
+    public function desarchivarOrdenDeReparacion(int $idOrdenDeReparacion){
+        $ordenDeReparacion = $this->buscarOrdenDeReparacion($idOrdenDeReparacion);
+
+        if (isset($ordenDeReparacion) && $ordenDeReparacion != null) {
+            $datos = array(
+                'archivada' => null
+            );
+
+            $this->ordenDeReparacionModel->update($idOrdenDeReparacion, $datos);
+        }
+
+        $url = '/ordenDeReparacion/' . $idOrdenDeReparacion;
+        return redirect()->to($url);
     }
 
 }
