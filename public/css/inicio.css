@@ -15,8 +15,8 @@
 }
 
 .menu {
-    width: 30%;
-    height: 60%;
+    flex-basis: 50%;
+    height: auto;
     background: var(--color-principal);
     border-radius: 20px;
     text-align: center;
@@ -56,4 +56,10 @@ li {
     border-radius: 10px;
 }
 
+@media (max-width: 300px) {
+    .menu {
+        flex-basis: 50%;
+        height: auto;
+    }
+}
 
