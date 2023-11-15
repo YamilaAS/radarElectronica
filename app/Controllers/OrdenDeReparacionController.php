@@ -15,6 +15,8 @@ use CodeIgniter\Database\Exceptions\DatabaseException;
 use Config\Database;
 use Exception;
 use Throwable;
+use App\Entities\Aparato;
+use App\Models\AparatoModel;
 
 class OrdenDeReparacionController extends BaseController
 {
@@ -22,6 +24,7 @@ class OrdenDeReparacionController extends BaseController
     private ClienteModel $clienteModel;
     private SalidaDeTrabajoModel $salidaDeTrabajoModel;
     private InformeDeReparacionModel $informeDeReparacionModel;
+    private AparatoModel $aparatoModel;
     protected $helpers = ['form'];
 
     public function __construct()
@@ -30,6 +33,7 @@ class OrdenDeReparacionController extends BaseController
         $this->clienteModel = new ClienteModel;
         $this->salidaDeTrabajoModel = new SalidaDeTrabajoModel;
         $this->informeDeReparacionModel = new InformeDeReparacionModel;
+        $this->aparatoModel = new AparatoModel;
         $this->db = Database::connect();
     }
 
@@ -114,6 +118,7 @@ class OrdenDeReparacionController extends BaseController
             $cliente = $this->clienteModel->find($ordenDeReparacion->idCliente);
             $salidaDeTrabajo = $this->salidaDeTrabajoModel->where('idOrdenDeReparacion', $idOrdenDeReparacion)->first();
             $informeDeReparacion = $this->informeDeReparacionModel->where('idOrdenDeReparacion', $idOrdenDeReparacion)->first();
+            $aparatos = $this->aparatoModel->findAll();
 
             if (empty($salidaDeTrabajo)) {
                 $salidaDeTrabajo = null;
@@ -128,7 +133,8 @@ class OrdenDeReparacionController extends BaseController
                 "ordenDeReparacion" => $ordenDeReparacion,
                 "linkContrato" => "/ordenDeReparacion/" . $idOrdenDeReparacion . "/contrato",
                 "salidaDeTrabajo" => $salidaDeTrabajo,
-                "informeDeReparacion" => $informeDeReparacion
+                "informeDeReparacion" => $informeDeReparacion,
+                "listadoDeAparatos" => $aparatos
             ];
 
             return $datos;
@@ -145,7 +151,7 @@ class OrdenDeReparacionController extends BaseController
         $datosOrdenDeReparacion = $this->buscarOrdenDeReparacion($idOrdenDeReparacion);
 
         if ($datosOrdenDeReparacion != null) {
-            return view('vistaModificarOrdenDeReparacion', $datosOrdenDeReparacion);
+            return view('vistaModificarOrdenDeReparacion', $datosOrdenDeReparacion );
         } else {
             $datos = array(
                 'titulo' => 'Orden No Encontrada'

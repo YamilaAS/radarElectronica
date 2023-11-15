@@ -9,21 +9,30 @@ use App\Entities\OrdenDeReparacion;
 use CodeIgniter\Database\BaseConnection;
 use Config\Database;
 use function PHPUnit\Framework\isEmpty;
+use App\Entities\Aparato;
+use App\Models\AparatoModel;
 
 class IngresoDeTrabajoController extends BaseController {
     private BaseConnection $db;
     private OrdenDeReparacionModel $ordenDeReparacionModel;
     private ClienteModel $clienteModel;
+    private AparatoModel $aparatoModel;
     protected $helpers = ['form'];
 
     public function __construct() {
         $this->db = Database::connect();
         $this->ordenDeReparacionModel = new OrdenDeReparacionModel;
         $this->clienteModel = new ClienteModel;
+        $this->aparatoModel = new AparatoModel;
     }
 
     public function verIngresoDeTrabajo() {
-        return view('vistaIngresoDeTrabajo');
+        $aparatos = $this->aparatoModel->findAll();
+
+        $datos = array(
+            'listadoDeAparatos' => $aparatos
+        );
+        return view('vistaIngresoDeTrabajo',$datos);
     }
 
     public function procesarIngresoDeTrabajo() {

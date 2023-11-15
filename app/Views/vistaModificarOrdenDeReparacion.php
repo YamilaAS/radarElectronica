@@ -62,13 +62,23 @@ function validar($datoInput, $datoValidacion)
                            class="col-sm-2 col-form-label labelVariable"><?= $ordenDeReparacion->fechaModificacion->format("d/m/Y") ?></label>
                 </div>
             </div>
+
             <div class="form-group row">
                 <label for="aparato" class="col-sm-2 col-form-label labelNombre">Aparato</label>
                 <div class="col-sm-10">
-                    <input name="aparato" class="form-control-plaintext labelVariable" id="aparato"
-                           value="<?php validar($ordenDeReparacion->aparato, 'aparato'); ?>">
-                    <p class="error"><?php echo validation_show_error('aparato'); ?></p>
+                    <select name="aparato" id="aparato" class="form-control-plaintext labelVariable">
+                        <?php
+                        foreach ($listadoDeAparatos as $aparato) {
+                            $selected = "";
+                            if ($ordenDeReparacion->aparato == $aparato->aparato) {
+                                $selected = "selected";
+                            }
+                            echo " <option value=\"{$aparato->aparato}\" ".$selected.">{$aparato->aparato}</option>";
+                        }
+                        ?>
+                    </select>
                 </div>
+                <div><p></p> </div>
             </div>
             <div class="form-group row">
                 <label for="marca" class="col-sm-2 col-form-label labelNombre">Marca</label>
