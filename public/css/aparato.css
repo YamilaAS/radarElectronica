@@ -1,0 +1,43 @@
+.GuardarAparato{
+    position: relative;
+}
+
+.inputAgregar {
+    width: 440px;
+    padding: 10px;
+    padding-right: 35px;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+    margin-right: 20px;
+    background: var(--color-secundario);
+    color: var(--color-letras);
+}
+
+.btnGuardar {
+    padding: 0 15px;
+    position: absolute;
+    border: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    background-color:  var(--color-secundario);
+    font-size: x-large;
+    text-align: center;
+    color: var(--color-letras);
+    height: 44px;
+}
+
+.btnBorrar{
+    background-color: transparent;
+    border-style: none;
+}
+
+
+.imgBorrar  {
+    width: 25px;
+}
+

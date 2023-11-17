@@ -9,6 +9,7 @@
 @import "sidebarBuscador.css";
 @import "buscador.css";
 @import "modificarOrdenDetrabajo.css";
+@import "aparato.css";
 
 :root {
     --color-principal: #1C3F60;

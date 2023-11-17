@@ -11,6 +11,7 @@
             <li><a href="<?php echo base_url('/ingresoDeTrabajo') ?>">Ingreso de trabajo</a></li>
             <li><a href="#">Lista de Precios</a></li>
             <li><a href="<?php echo base_url('/buscar')?>">Buscar</a></li>
+            <li><a href="<?php echo base_url('/ingresoDeAparato')?>">Ingreso de Aparato</a></li>
         </ul>
     </div>
 </div>

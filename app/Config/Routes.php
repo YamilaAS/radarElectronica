@@ -42,3 +42,11 @@ $routes->post('/modificar', 'OrdenDeReparacionController::procesarModificarOrden
 //Archivar
 $routes->get('/ordenDeReparacion/(:num)/archivar', 'OrdenDeReparacionController::archivarOrdenDeReparacion/$1');
 $routes->get('/ordenDeReparacion/(:num)/desarchivar', 'OrdenDeReparacionController::desarchivarOrdenDeReparacion/$1');
+
+//ingreso de Aparato
+$routes->get('/ingresoDeAparato', 'AparatoController::verIngresoDeAparato');
+$routes->post('/ingresoDeAparato', 'AparatoController::procesarIngresoDeAparato');
+$routes->post('/aparato/(:alpha)/borrar', 'AparatoController::borrarAparato/$1');
+
+
+

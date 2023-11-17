@@ -7,5 +7,8 @@ use CodeIgniter\Entity\Entity;
 class Aparato extends Entity {
     protected string $aparato;
 
+    protected $casts = [
+        'aparato'        => 'string',
 
+    ];
 }
