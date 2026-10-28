@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+.header {
+    position: fixed;
+
+    margin-left: 50%;
+
+    background-color: #1C3F60;
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px;
+
+}
+
+
+
+/*--------- Menú  ----------------*/
+.header .nav-link {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.header .nav-link li a{
+    text-decoration: none;
+    color: var(--color-letras);
+    padding: 10px 20px 10px 20px;
+    display: block;
+}
+
+.header .nav-link li{
+    display: inline-block;
+    text-align: center;
+}
+
+.header .nav-link li a:hover{
+    background: var(--color-secundario);
+    border-radius: 10px;
+}
+
+
+/*--------- Boton de Busqueda rápida ----------------*/
+
+.buscadorRapido {
+    position: relative;
+}
+
+.inputBuscador {
+    width: 350px;
+    padding: 10px;
+    padding-right: 35px;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+    margin-right: 20px;
+    background: var(--color-secundario);
+    color: var(--color-letras);
+}
+
+::placeholder {
+    color: var(--color-letras);
+}
+
+.btnBuscar {
+    padding: 10px 15px;
+    position: absolute;
+    border: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    margin-right: 15px;
+    background-color:  var(--color-secundario);
+}
+
+.btnBuscar .imgLupa {
+    width:20px;
+    background-color:  var(--color-secundario);
+
+}
+
+/*
+@media only screen and (max-width: 600px) {
+    .inputBuscador {
+        width: 200px;
+    }
+    .header .nav-link {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1108px) {
+    .inputBuscador {
+        width: 250px;
+    }
+    .header .nav-link {
+        display: none;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,13 @@
+INFO - 2023-09-30 16:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-30 16:10:31 --> Trying to get property 'id' of non-object
+in APPPATH/Views/vistaOrdenDeReparacion.php on line 27.
+ 1 APPPATH/Views/vistaOrdenDeReparacion.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/vistaOrdenDeReparacion.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/OrdenDeReparacionController.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->verOrdenDeReparacion()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')

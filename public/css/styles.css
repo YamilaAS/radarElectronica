@@ -19,10 +19,25 @@
     --color-terciario: #ad7a3d;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
 body {
     background: var(--color-fondo);
     color: var(--color-secundario);
     font-family: "Poppins";
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 a.disabled {

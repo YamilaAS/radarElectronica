@@ -1,0 +1,476 @@
+CRITICAL - 2023-11-04 12:44:18 --> Call to a member function format() on string
+in APPPATH/Views/vistaBuscador.php on line 36.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/BuscadorController.php(100): view()
+ 5 APPPATH/Controllers/BuscadorController.php(54): App\Controllers\BuscadorController->buscarPorApellido()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusquedaRapida()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-11-04 14:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 14:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 14:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 14:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 14:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 14:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-04 14:28:16 --> Call to undefined function set_value()
+in APPPATH/Views/vistaInformeDeReparacion.php on line 80.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/InformeDeReparacionController.php(35): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\InformeDeReparacionController->verInformeDeReparacion()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 14:28:22 --> Call to undefined function set_value()
+in APPPATH/Views/vistaInformeDeReparacion.php on line 80.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/InformeDeReparacionController.php(35): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\InformeDeReparacionController->verInformeDeReparacion()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 14:28:48 --> Call to undefined function validation_list_errors()
+in APPPATH/Views/vistaInformeDeReparacion.php on line 2.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/InformeDeReparacionController.php(35): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\InformeDeReparacionController->verInformeDeReparacion()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 14:28:50 --> Call to undefined function validation_list_errors()
+in APPPATH/Views/vistaInformeDeReparacion.php on line 2.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/InformeDeReparacionController.php(35): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\InformeDeReparacionController->verInformeDeReparacion()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-11-04 14:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 14:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 14:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 14:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 14:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-04 15:01:10 --> Array to string conversion
+in APPPATH/Controllers/BuscadorController.php on line 29.
+ 1 APPPATH/Controllers/BuscadorController.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusquedaEspecializada()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 19:51:49 --> sizeof(): Parameter must be an array or an object that implements Countable
+in APPPATH/Controllers/BuscadorController.php on line 78.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/BuscadorController.php(78): sizeof()
+ 3 APPPATH/Controllers/BuscadorController.php(48): App\Controllers\BuscadorController->buscarPorApellido()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->listarResultados()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 19:52:18 --> sizeof(): Parameter must be an array or an object that implements Countable
+in APPPATH/Controllers/BuscadorController.php on line 78.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/BuscadorController.php(78): sizeof()
+ 3 APPPATH/Controllers/BuscadorController.php(48): App\Controllers\BuscadorController->buscarPorApellido()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->listarResultados()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 20:00:07 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, null given, called in /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php on line 77
+in SYSTEMPATH/BaseModel.php on line 607.
+ 1 APPPATH/Controllers/BuscadorController.php(77): CodeIgniter\BaseModel->findAll()
+ 2 APPPATH/Controllers/BuscadorController.php(48): App\Controllers\BuscadorController->buscarPorApellido()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->listarResultados()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 20:06:23 --> syntax error, unexpected '<'
+in APPPATH/Views/vistaBuscador.php on line 56.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/BuscadorController.php(104): view()
+ 4 APPPATH/Controllers/BuscadorController.php(48): App\Controllers\BuscadorController->buscarPorApellido()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->listarResultados()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 20:18:37 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::when(), 1 passed in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php on line 871 and at least 2 expected
+in SYSTEMPATH/Traits/ConditionalTrait.php on line 28.
+ 1 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->when()
+ 2 APPPATH/Controllers/BuscadorController.php(81): CodeIgniter\Model->__call()
+ 3 APPPATH/Controllers/BuscadorController.php(48): App\Controllers\BuscadorController->buscarPorApellido()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->listarResultados()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 21:05:00 --> Call to a member function format() on null
+in APPPATH/Views/vistaBuscador.php on line 41.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/BuscadorController.php(94): view()
+ 5 APPPATH/Controllers/BuscadorController.php(48): App\Controllers\BuscadorController->buscarPorApellido()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 21:08:08 --> Call to a member function format() on string
+in APPPATH/Views/vistaBuscador.php on line 41.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/BuscadorController.php(94): view()
+ 5 APPPATH/Controllers/BuscadorController.php(48): App\Controllers\BuscadorController->buscarPorApellido()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 21:08:59 --> Call to a member function format() on string
+in APPPATH/Views/vistaBuscador.php on line 42.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/BuscadorController.php(94): view()
+ 5 APPPATH/Controllers/BuscadorController.php(48): App\Controllers\BuscadorController->buscarPorApellido()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 21:09:46 --> Call to a member function format() on string
+in APPPATH/Views/vistaBuscador.php on line 43.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/BuscadorController.php(94): view()
+ 5 APPPATH/Controllers/BuscadorController.php(48): App\Controllers\BuscadorController->buscarPorApellido()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 21:10:45 --> Undefined variable: datos
+in APPPATH/Controllers/BuscadorController.php on line 86.
+ 1 APPPATH/Controllers/BuscadorController.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/BuscadorController.php(48): App\Controllers\BuscadorController->buscarPorApellido()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 21:12:06 --> Call to a member function format() on string
+in APPPATH/Views/vistaBuscador.php on line 43.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/BuscadorController.php(95): view()
+ 5 APPPATH/Controllers/BuscadorController.php(48): App\Controllers\BuscadorController->buscarPorApellido()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 21:14:25 --> Call to a member function format() on string
+in APPPATH/Views/vistaBuscador.php on line 43.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/BuscadorController.php(95): view()
+ 5 APPPATH/Controllers/BuscadorController.php(48): App\Controllers\BuscadorController->buscarPorApellido()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 21:15:49 --> Call to a member function format() on string
+in APPPATH/Views/vistaBuscador.php on line 44.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/BuscadorController.php(95): view()
+ 5 APPPATH/Controllers/BuscadorController.php(48): App\Controllers\BuscadorController->buscarPorApellido()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 21:16:13 --> Call to a member function format() on string
+in APPPATH/Views/vistaBuscador.php on line 44.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/BuscadorController.php(95): view()
+ 5 APPPATH/Controllers/BuscadorController.php(48): App\Controllers\BuscadorController->buscarPorApellido()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-04 21:19:02 --> mysqli_sql_exception: Unknown column 'ordenDeReparacion.fechaReparacion' in 'field list' in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php(66): CodeIgniter\BaseModel->findAll()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php(48): App\Controllers\BuscadorController->buscarPorApellido()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+CRITICAL - 2023-11-04 21:19:02 --> Unknown column 'ordenDeReparacion.fechaReparacion' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/BuscadorController.php(66): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/BuscadorController.php(48): App\Controllers\BuscadorController->buscarPorApellido()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 21:21:19 --> syntax error, unexpected 'return' (T_RETURN), expecting ';'
+in APPPATH/Controllers/BuscadorController.php on line 101.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-11-04 21:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 21:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 21:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 21:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 21:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 21:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 21:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 21:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 21:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 22:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-04 22:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-04 22:13:28 --> Call to a member function findAll() on null
+in APPPATH/Controllers/BuscadorController.php on line 66.
+ 1 APPPATH/Controllers/BuscadorController.php(48): App\Controllers\BuscadorController->buscarPorApellido()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-11-04 22:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-04 22:22:39 --> Trying to get property 'aparato' of non-object
+in APPPATH/Controllers/BuscadorController.php on line 112.
+ 1 APPPATH/Controllers/BuscadorController.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/BuscadorController.php(67): App\Controllers\BuscadorController->generarBusqueda()
+ 3 APPPATH/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 22:23:46 --> Argument 1 passed to PHPUnit\Framework\throwException() must implement interface Throwable, array given, called in /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php on line 112
+in VENDORPATH/phpunit/phpunit/src/Framework/Assert/Functions.php on line 3065.
+ 1 APPPATH/Controllers/BuscadorController.php(112): PHPUnit\Framework\throwException()
+ 2 APPPATH/Controllers/BuscadorController.php(67): App\Controllers\BuscadorController->generarBusqueda()
+ 3 APPPATH/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 22:25:14 --> Trying to get property 'aparato' of non-object
+in APPPATH/Controllers/BuscadorController.php on line 119.
+ 1 APPPATH/Controllers/BuscadorController.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/BuscadorController.php(67): App\Controllers\BuscadorController->generarBusqueda()
+ 3 APPPATH/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 22:25:36 --> Argument 1 passed to PHPUnit\Framework\throwException() must implement interface Throwable, array given, called in /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php on line 113
+in VENDORPATH/phpunit/phpunit/src/Framework/Assert/Functions.php on line 3065.
+ 1 APPPATH/Controllers/BuscadorController.php(113): PHPUnit\Framework\throwException()
+ 2 APPPATH/Controllers/BuscadorController.php(67): App\Controllers\BuscadorController->generarBusqueda()
+ 3 APPPATH/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 22:27:02 --> Trying to get property 'aparato' of non-object
+in APPPATH/Controllers/BuscadorController.php on line 119.
+ 1 APPPATH/Controllers/BuscadorController.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/BuscadorController.php(67): App\Controllers\BuscadorController->generarBusqueda()
+ 3 APPPATH/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 22:34:54 --> Array to string conversion
+in APPPATH/Controllers/BuscadorController.php on line 123.
+ 1 APPPATH/Controllers/BuscadorController.php(123): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/BuscadorController.php(67): App\Controllers\BuscadorController->generarBusqueda()
+ 3 APPPATH/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 22:35:23 --> Array to string conversion
+in APPPATH/Controllers/BuscadorController.php on line 124.
+ 1 APPPATH/Controllers/BuscadorController.php(124): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/BuscadorController.php(67): App\Controllers\BuscadorController->generarBusqueda()
+ 3 APPPATH/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 22:41:01 --> Array to string conversion
+in APPPATH/Controllers/BuscadorController.php on line 123.
+ 1 APPPATH/Controllers/BuscadorController.php(123): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/BuscadorController.php(67): App\Controllers\BuscadorController->generarBusqueda()
+ 3 APPPATH/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-11-04 22:44:01 --> Array to string conversion
+in APPPATH/Controllers/BuscadorController.php on line 123.
+ 1 APPPATH/Controllers/BuscadorController.php(123): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/BuscadorController.php(67): App\Controllers\BuscadorController->generarBusqueda()
+ 3 APPPATH/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-04 22:46:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`is` = 'null'
+AND `informeDeReparacion`.`fechaReparacion` <> 'null'
+AND `sali...' at line 6 in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php(67): CodeIgniter\BaseModel->findAll()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+CRITICAL - 2023-11-04 22:46:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`is` = 'null'
+AND `informeDeReparacion`.`fechaReparacion` <> 'null'
+AND `sali...' at line 6
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/BuscadorController.php(67): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-04 22:50:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`is` = 'null'
+AND `salidaDeTrabajo`.`fechaSalida` <> 'null'
+ORDER BY `ordenDe...' at line 6 in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php(67): CodeIgniter\BaseModel->findAll()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+CRITICAL - 2023-11-04 22:50:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`is` = 'null'
+AND `salidaDeTrabajo`.`fechaSalida` <> 'null'
+ORDER BY `ordenDe...' at line 6
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/BuscadorController.php(67): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-04 22:53:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`is` = 'null'
+ORDER BY `ordenDeReparacion`.`fechaIngreso` DESC
+ LIMIT 10' at line 6 in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php(67): CodeIgniter\BaseModel->findAll()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+CRITICAL - 2023-11-04 22:53:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`is` = 'null'
+ORDER BY `ordenDeReparacion`.`fechaIngreso` DESC
+ LIMIT 10' at line 6
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/BuscadorController.php(67): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-11-04 23:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

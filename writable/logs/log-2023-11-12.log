@@ -1,0 +1,998 @@
+INFO - 2023-11-12 20:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-12 20:38:43 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(801): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(735): CodeIgniter\Database\BaseConnection->transBegin()
+#4 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(345): CodeIgniter\Database\BaseConnection->transStart()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->procesarModificarOrdenDeReparacion()
+#6 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(801): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(735): CodeIgniter\Database\BaseConnection->transBegin()
+#3 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(345): CodeIgniter\Database\BaseConnection->transStart()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->procesarModificarOrdenDeReparacion()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#6 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#9 {main}
+CRITICAL - 2023-11-12 20:38:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(801): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseConnection.php(735): CodeIgniter\Database\BaseConnection->transBegin()
+ 3 APPPATH/Controllers/OrdenDeReparacionController.php(345): CodeIgniter\Database\BaseConnection->transStart()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->procesarModificarOrdenDeReparacion()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-12 20:39:59 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(801): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(735): CodeIgniter\Database\BaseConnection->transBegin()
+#4 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(345): CodeIgniter\Database\BaseConnection->transStart()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->procesarModificarOrdenDeReparacion()
+#6 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(801): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(735): CodeIgniter\Database\BaseConnection->transBegin()
+#3 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(345): CodeIgniter\Database\BaseConnection->transStart()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->procesarModificarOrdenDeReparacion()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#6 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#9 {main}
+CRITICAL - 2023-11-12 20:39:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(801): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseConnection.php(735): CodeIgniter\Database\BaseConnection->transBegin()
+ 3 APPPATH/Controllers/OrdenDeReparacionController.php(345): CodeIgniter\Database\BaseConnection->transStart()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->procesarModificarOrdenDeReparacion()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-12 20:40:27 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(801): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(735): CodeIgniter\Database\BaseConnection->transBegin()
+#4 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(345): CodeIgniter\Database\BaseConnection->transStart()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->procesarModificarOrdenDeReparacion()
+#6 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(801): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(735): CodeIgniter\Database\BaseConnection->transBegin()
+#3 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(345): CodeIgniter\Database\BaseConnection->transStart()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->procesarModificarOrdenDeReparacion()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#6 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#9 {main}
+CRITICAL - 2023-11-12 20:40:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(801): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseConnection.php(735): CodeIgniter\Database\BaseConnection->transBegin()
+ 3 APPPATH/Controllers/OrdenDeReparacionController.php(345): CodeIgniter\Database\BaseConnection->transStart()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->procesarModificarOrdenDeReparacion()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-12 20:40:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(801): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(735): CodeIgniter\Database\BaseConnection->transBegin()
+#4 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(345): CodeIgniter\Database\BaseConnection->transStart()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->procesarModificarOrdenDeReparacion()
+#6 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(801): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(735): CodeIgniter\Database\BaseConnection->transBegin()
+#3 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(345): CodeIgniter\Database\BaseConnection->transStart()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->procesarModificarOrdenDeReparacion()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#6 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#9 {main}
+CRITICAL - 2023-11-12 20:40:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(801): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseConnection.php(735): CodeIgniter\Database\BaseConnection->transBegin()
+ 3 APPPATH/Controllers/OrdenDeReparacionController.php(345): CodeIgniter\Database\BaseConnection->transStart()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->procesarModificarOrdenDeReparacion()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-12 20:44:00 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(801): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(735): CodeIgniter\Database\BaseConnection->transBegin()
+#4 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(345): CodeIgniter\Database\BaseConnection->transStart()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->procesarModificarOrdenDeReparacion()
+#6 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(801): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(735): CodeIgniter\Database\BaseConnection->transBegin()
+#3 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(345): CodeIgniter\Database\BaseConnection->transStart()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->procesarModificarOrdenDeReparacion()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#6 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#9 {main}
+INFO - 2023-11-12 20:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-12 20:44:00 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(110): CodeIgniter\BaseModel->find()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(143): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#5 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(110): CodeIgniter\BaseModel->find()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(143): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#12 {main}
+CRITICAL - 2023-11-12 20:44:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind()
+ 5 APPPATH/Controllers/OrdenDeReparacionController.php(110): CodeIgniter\BaseModel->find()
+ 6 APPPATH/Controllers/OrdenDeReparacionController.php(143): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-12 20:45:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(110): CodeIgniter\BaseModel->find()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(143): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#5 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(110): CodeIgniter\BaseModel->find()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(143): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#12 {main}
+CRITICAL - 2023-11-12 20:45:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind()
+ 5 APPPATH/Controllers/OrdenDeReparacionController.php(110): CodeIgniter\BaseModel->find()
+ 6 APPPATH/Controllers/OrdenDeReparacionController.php(143): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-12 20:45:09 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(110): CodeIgniter\BaseModel->find()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(143): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#5 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(110): CodeIgniter\BaseModel->find()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(143): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#12 {main}
+CRITICAL - 2023-11-12 20:45:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind()
+ 5 APPPATH/Controllers/OrdenDeReparacionController.php(110): CodeIgniter\BaseModel->find()
+ 6 APPPATH/Controllers/OrdenDeReparacionController.php(143): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-12 20:45:11 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(110): CodeIgniter\BaseModel->find()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(143): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#5 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(110): CodeIgniter\BaseModel->find()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(143): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#12 {main}
+CRITICAL - 2023-11-12 20:45:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind()
+ 5 APPPATH/Controllers/OrdenDeReparacionController.php(110): CodeIgniter\BaseModel->find()
+ 6 APPPATH/Controllers/OrdenDeReparacionController.php(143): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-12 20:46:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#5 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#12 {main}
+CRITICAL - 2023-11-12 20:46:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind()
+ 5 APPPATH/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+ 6 APPPATH/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-12 20:46:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#5 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#12 {main}
+CRITICAL - 2023-11-12 20:46:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind()
+ 5 APPPATH/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+ 6 APPPATH/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-12 20:46:17 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#5 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#12 {main}
+CRITICAL - 2023-11-12 20:46:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind()
+ 5 APPPATH/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+ 6 APPPATH/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-11-12 20:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-12 20:49:25 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#5 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#12 {main}
+CRITICAL - 2023-11-12 20:49:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind()
+ 5 APPPATH/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+ 6 APPPATH/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-12 20:50:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#5 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#12 {main}
+CRITICAL - 2023-11-12 20:50:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind()
+ 5 APPPATH/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+ 6 APPPATH/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-12 20:50:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(37): CodeIgniter\BaseModel->find()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->verOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#5 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(37): CodeIgniter\BaseModel->find()
+#6 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->verOrdenDeReparacion()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#11 {main}
+CRITICAL - 2023-11-12 20:50:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind()
+ 5 APPPATH/Controllers/OrdenDeReparacionController.php(37): CodeIgniter\BaseModel->find()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->verOrdenDeReparacion()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-11-12 20:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 20:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-12 20:50:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php(67): CodeIgniter\BaseModel->findAll()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#5 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php(67): CodeIgniter\BaseModel->findAll()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#12 {main}
+CRITICAL - 2023-11-12 20:50:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/BuscadorController.php(67): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/BuscadorController.php(49): App\Controllers\BuscadorController->buscarPorApellido()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusqueda()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-11-12 20:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-12 20:50:25 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#5 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#12 {main}
+CRITICAL - 2023-11-12 20:50:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind()
+ 5 APPPATH/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+ 6 APPPATH/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-12 20:50:27 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#5 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#12 {main}
+CRITICAL - 2023-11-12 20:50:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind()
+ 5 APPPATH/Controllers/OrdenDeReparacionController.php(111): CodeIgniter\BaseModel->find()
+ 6 APPPATH/Controllers/OrdenDeReparacionController.php(144): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-12 20:51:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(112): CodeIgniter\BaseModel->find()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(145): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#5 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(112): CodeIgniter\BaseModel->find()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(145): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#12 {main}
+CRITICAL - 2023-11-12 20:51:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind()
+ 5 APPPATH/Controllers/OrdenDeReparacionController.php(112): CodeIgniter\BaseModel->find()
+ 6 APPPATH/Controllers/OrdenDeReparacionController.php(145): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-11-12 20:51:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(112): CodeIgniter\BaseModel->find()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(145): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#5 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(112): CodeIgniter\BaseModel->find()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(145): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#12 {main}
+CRITICAL - 2023-11-12 20:51:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind()
+ 5 APPPATH/Controllers/OrdenDeReparacionController.php(112): CodeIgniter\BaseModel->find()
+ 6 APPPATH/Controllers/OrdenDeReparacionController.php(145): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-11-12 20:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-12 20:57:43 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(801): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(735): CodeIgniter\Database\BaseConnection->transBegin()
+#4 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(347): CodeIgniter\Database\BaseConnection->transStart()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->procesarModificarOrdenDeReparacion()
+#6 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(801): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(735): CodeIgniter\Database\BaseConnection->transBegin()
+#3 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(347): CodeIgniter\Database\BaseConnection->transStart()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->procesarModificarOrdenDeReparacion()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#6 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#9 {main}
+INFO - 2023-11-12 20:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-12 20:57:43 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(112): CodeIgniter\BaseModel->find()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(145): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#5 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(112): CodeIgniter\BaseModel->find()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/OrdenDeReparacionController.php(145): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#12 {main}
+CRITICAL - 2023-11-12 20:57:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind()
+ 5 APPPATH/Controllers/OrdenDeReparacionController.php(112): CodeIgniter\BaseModel->find()
+ 6 APPPATH/Controllers/OrdenDeReparacionController.php(145): App\Controllers\OrdenDeReparacionController->buscarOrdenDeReparacion()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->modificarOrdenDeReparacion()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-11-12 20:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 21:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 21:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 21:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 21:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 21:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 21:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 21:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 21:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-12 21:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

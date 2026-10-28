@@ -1,6 +1,6 @@
 <?php?>
 
-<header class="header" xmlns="http://www.w3.org/1999/html">
+<header class="header-nav" xmlns="http://www.w3.org/1999/html">
     <div class="logo">
        <a href="<?php echo base_url('/')?>"><img src="/img/logoFondoAzulRecortado.png"></a>
     </div>

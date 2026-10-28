@@ -5,9 +5,9 @@
     font-family: "Poppins";
 }
 
-.header {
-    background-color: var(--color-principal);
-    color: var(--color-letras);
+.header-nav {
+    background-color: #1C3F60;
+    color: #ffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,15 +15,14 @@
     padding: 5px;
 }
 
-/*--------- Logo ----------------*/
-
-.header .logo img {
+.logo img {
     height: 75px;
     width: auto;
+
 }
 
 /*--------- Menú  ----------------*/
-.header .nav-link {
+ .nav-link {
     list-style: none;
     padding: 0;
     width: 100%;
@@ -32,19 +31,19 @@
 
 }
 
-.header .nav-link li a{
+.nav-link li a{
     text-decoration: none;
     color: var(--color-letras);
     padding: 10px 20px 10px 20px;
     display: block;
 }
 
-.header .nav-link li{
+.nav-link li{
     display: inline-block;
     text-align: center;
 }
 
-.header .nav-link li a:hover{
+ .nav-link li a:hover{
     background: var(--color-secundario);
     border-radius: 10px;
 }
@@ -91,6 +90,8 @@
     background-color:  var(--color-secundario);
 
 }
+
+
 @media only screen and (max-width: 600px) {
     .inputBuscador {
         width: 200px;

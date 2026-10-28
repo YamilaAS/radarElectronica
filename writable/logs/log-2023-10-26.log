@@ -1,0 +1,91 @@
+INFO - 2023-10-26 13:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 13:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 13:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 13:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-26 14:03:19 --> Call to undefined function set_value()
+in APPPATH/Views/templates/sidebarBuscador.php on line 6.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 4 APPPATH/Views/vistaBuscador.php(8): CodeIgniter\View\View->include()
+ 5 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/vistaBuscador.php')
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/BuscadorController.php(8): view()
+ 9 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->verBuscardor()
+10 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-10-26 20:33:37 --> Undefined property: App\Controllers\BuscadorController::$ordenDeReparacionModel
+in APPPATH/Controllers/BuscadorController.php on line 15.
+ 1 APPPATH/Controllers/BuscadorController.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBuscador()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-10-26 22:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 22:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-26 22:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-26 22:21:31 --> Undefined variable: ordenDeReparacion
+in APPPATH/Views/templates/sidebarService.php on line 4.
+ 1 APPPATH/Views/templates/sidebarService.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/templates/sidebarService.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/vistaOrdenNoEncontrada.php(10): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/vistaOrdenNoEncontrada.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/BuscadorController.php(54): view()
+10 APPPATH/Controllers/BuscadorController.php(38): App\Controllers\BuscadorController->buscarPorOrden()
+11 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusquedaRapida()
+12 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-10-26 22:33:54 --> Argument 2 passed to view() must be of the type array, string given, called in /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php on line 54
+in SYSTEMPATH/Common.php on line 1176.
+ 1 APPPATH/Controllers/BuscadorController.php(54): view()
+ 2 APPPATH/Controllers/BuscadorController.php(39): App\Controllers\BuscadorController->buscarPorOrden()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusquedaRapida()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-10-26 22:38:33 --> Too few arguments to function App\Controllers\BuscadorController::buscarPorApellido(), 1 passed in /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php on line 40 and exactly 2 expected
+in APPPATH/Controllers/BuscadorController.php on line 59.
+ 1 APPPATH/Controllers/BuscadorController.php(40): App\Controllers\BuscadorController->buscarPorApellido()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusquedaRapida()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-10-26 22:51:55 --> syntax error, unexpected ';', expecting ')'
+in APPPATH/Controllers/BuscadorController.php on line 71.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-10-26 22:52:23 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+in APPPATH/Controllers/BuscadorController.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusquedaRapida()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-10-26 22:55:27 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, string given, called in /home/yami/PhpstormProjects/radarElectronica/app/Controllers/BuscadorController.php on line 65
+in SYSTEMPATH/BaseModel.php on line 607.
+ 1 APPPATH/Controllers/BuscadorController.php(65): CodeIgniter\BaseModel->findAll()
+ 2 APPPATH/Controllers/BuscadorController.php(42): App\Controllers\BuscadorController->buscarPorApellido()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\BuscadorController->procesarBusquedaRapida()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')

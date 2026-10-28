@@ -1,8 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 .sidebarBuscador {
-    background: var(--color-principal);
+    padding: 0;
+    background-color: #1C3F60;
     color: var(--color-letras);
-    width: 100%;
-    max-width: 250px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .tituloBuscador{
@@ -71,4 +95,11 @@
     background: var(--color-letras);
     color: var(--color-secundario);
     border: 2px solid var(--color-secundario);
+}
+
+.texto-footer {
+    font-size: .85rem;
+    color: var(--color-secundario);
+    text-align: center;
+    margin: 16px;
 }

@@ -1,0 +1,91 @@
+CRITICAL - 2023-10-13 10:50:35 --> Trying to get property 'idCliente' of non-object
+in APPPATH/Controllers/InformeDeReparacionController.php on line 20.
+ 1 APPPATH/Controllers/InformeDeReparacionController.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\InformeDeReparacionController->verInformeDeReparacion()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-10-13 10:51:46 --> mysqli_sql_exception: Unknown column 'salidaDeTrabajo.id' in 'where clause' in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(563): CodeIgniter\Model->doFind()
+#6 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/SalidaDeTrabajoController.php(72): CodeIgniter\BaseModel->find()
+#7 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\SalidaDeTrabajoController->procesarSalidaDeTrabajo()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#12 {main}
+CRITICAL - 2023-10-13 10:51:46 --> Unknown column 'salidaDeTrabajo.id' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind()
+ 4 APPPATH/Controllers/SalidaDeTrabajoController.php(72): CodeIgniter\BaseModel->find()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\SalidaDeTrabajoController->procesarSalidaDeTrabajo()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+ERROR - 2023-10-13 12:06:53 --> mysqli_sql_exception: Duplicate entry '23' for key 'idOrdenDeReparacion' in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /home/yami/PhpstormProjects/radarElectronica/app/Controllers/SalidaDeTrabajoController.php(63): CodeIgniter\Model->insert()
+#8 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(919): App\Controllers\SalidaDeTrabajoController->procesarSalidaDeTrabajo()
+#9 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/yami/PhpstormProjects/radarElectronica/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/home/yami/Phps...')
+#13 {main}
+CRITICAL - 2023-10-13 12:06:53 --> Duplicate entry '23' for key 'idOrdenDeReparacion'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/SalidaDeTrabajoController.php(63): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\SalidaDeTrabajoController->procesarSalidaDeTrabajo()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-10-13 12:29:05 --> Undefined property: App\Controllers\OrdenDeReparacionController::$salidaDeTrabajoModel
+in APPPATH/Controllers/OrdenDeReparacionController.php on line 31.
+ 1 APPPATH/Controllers/OrdenDeReparacionController.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->verOrdenDeReparacion()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-10-13 12:54:24 --> Object of class App\Entities\SalidaDeTrabajo could not be converted to string
+in APPPATH/Controllers/OrdenDeReparacionController.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->verOrdenDeReparacion()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-10-13 13:02:30 --> Call to undefined function App\Controllers\add()
+in APPPATH/Controllers/OrdenDeReparacionController.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->verOrdenDeReparacion()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+CRITICAL - 2023-10-13 13:02:55 --> Call to undefined function App\Controllers\add()
+in APPPATH/Controllers/OrdenDeReparacionController.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\OrdenDeReparacionController->verOrdenDeReparacion()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')

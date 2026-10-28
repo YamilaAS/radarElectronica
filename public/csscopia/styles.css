@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+@import "navbar.css";
+@import "inicio.css";
+@import "ingresoDeTrabajo.css";
+@import "detalleDeOrdenDeReparacion.css";
+@import "sidebarService.css";
+@import "informeDeReparacion.css";
+@import "salidaDeTrabajo.css";
+@import "sidebarBuscador.css";
+@import "buscador.css";
+@import "modificarOrdenDetrabajo.css";
+@import "aparato.css";
+
+:root {
+    --color-principal: #1C3F60;
+    --color-secundario: #365679;
+    --color-fondo: #0B1320;
+    --color-letras: #FFFFFF;
+    --color-terciario: #ad7a3d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    background: var(--color-fondo);
+    color: var(--color-secundario);
+    font-family: "Poppins";
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+    color: var(--color-secundario);
+}
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="5" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.107084">
+    <testsuite name="App" tests="5" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.107084">
+      <testsuite name="ExampleDatabaseTest" file="/home/yami/PhpstormProjects/radarElectronica/tests/database/ExampleDatabaseTest.php" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.080057">
+        <testcase name="testModelFindAll" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" file="/home/yami/PhpstormProjects/radarElectronica/tests/database/ExampleDatabaseTest.php" line="17" assertions="1" time="0.059414"/>
+        <testcase name="testSoftDeleteLeavesRow" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" file="/home/yami/PhpstormProjects/radarElectronica/tests/database/ExampleDatabaseTest.php" line="28" assertions="2" time="0.020642"/>
+      </testsuite>
+      <testsuite name="ExampleSessionTest" file="/home/yami/PhpstormProjects/radarElectronica/tests/session/ExampleSessionTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.008001">
+        <testcase name="testSessionSimple" class="ExampleSessionTest" classname="ExampleSessionTest" file="/home/yami/PhpstormProjects/radarElectronica/tests/session/ExampleSessionTest.php" line="11" assertions="1" time="0.008001"/>
+      </testsuite>
+      <testsuite name="HealthTest" file="/home/yami/PhpstormProjects/radarElectronica/tests/unit/HealthTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.019027">
+        <testcase name="testIsDefinedAppPath" class="HealthTest" classname="HealthTest" file="/home/yami/PhpstormProjects/radarElectronica/tests/unit/HealthTest.php" line="13" assertions="1" time="0.009987"/>
+        <testcase name="testBaseUrlHasBeenSet" class="HealthTest" classname="HealthTest" file="/home/yami/PhpstormProjects/radarElectronica/tests/unit/HealthTest.php" line="18" assertions="1" time="0.009040"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

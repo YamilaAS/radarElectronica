@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
   <body>
-    <?=$this->include('templates/navbar')?>
+  <header class="header">
+      <?=$this->include('templates/navbar')?>
+  </header>
+  <div class="wrapper">
     <?=$this->renderSection('contenido')?>
+  </div>
   </body>
 </html>

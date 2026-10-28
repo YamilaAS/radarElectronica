@@ -1,0 +1,7 @@
+.header {
+    position: fixed;
+    display: grid;
+    grid-template-columns: .8fr 4fr;
+    width: 100%;
+    top: 0;
+}

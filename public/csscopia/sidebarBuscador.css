@@ -1,0 +1,92 @@
+.sidebarBuscador {
+    padding: 0;
+    background-color: #1C3F60;
+    color: var(--color-letras);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 75px;
+    width: auto;
+
+}
+
+.tituloBuscador{
+    color: var(--color-letras);
+    padding: 30px 10px 0 10px;
+    font-family: "Poppins";
+}
+
+.inputBuscarPor{
+    width: 230px;
+    padding: 10px;
+    border-radius: 5px 5px 5px 5px;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+    margin: 10px;
+    background: var(--color-secundario);
+    color: var(--color-letras);
+}
+
+::placeholder {
+    color: var(--color-letras);
+}
+
+.tituloFiltros {
+    padding: 10px 10px 0 10px;
+}
+
+.tituloCheck {
+    padding: 10px 10px 0 10px;;
+}
+
+.check {
+    margin: 5px 10px;
+}
+
+.divFecha {
+    width: 230px;
+    padding: 5px 10px 5px 0;
+}
+
+.inputFecha {
+    border-radius: 5px 5px 5px 5px;
+    background: var(--color-secundario);
+    color: var(--color-letras);
+    border-color:var(--color-secundario);
+    width: 230px;
+    padding: 5px 15px 5px 15px;
+    outline: none;
+    border: 0;
+    font-size: 1rem;
+}
+
+.inputFecha[type="date" ]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.buscarBtn {
+    background: var(--color-secundario);
+    border-color:var(--color-secundario);
+    margin: 10px;
+    width: 230px;
+}
+
+.buscarBtn:hover {
+    background: var(--color-letras);
+    color: var(--color-secundario);
+    border: 2px solid var(--color-secundario);
+}
+
+.texto-footer {
+    font-size: .85rem;
+    color: var(--color-secundario);
+    text-align: center;
+
+}

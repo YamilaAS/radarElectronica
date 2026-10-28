@@ -1,10 +1,18 @@
-.contenedorPrincipal {
+/*.contenedorPrincipal {
     display: flex;
+}*/
+
+.contenedorPrincipal {
+    display: grid;
+    grid-template-columns: 0.5fr 4fr;
 }
 
+/*
 .sidebarBuscador, .listadoDeBusqueda{
     height: 100vh;
-}
+}*/
+
+
 
 .listadoDeBusqueda {
     margin: 0 auto;

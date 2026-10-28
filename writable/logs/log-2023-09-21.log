@@ -1,0 +1,1233 @@
+INFO - 2023-09-21 18:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 18:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 18:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 19:11:34 --> Call to undefined function validation_list_errors()
+in APPPATH/Views/formularioIngresoDeTrabajo.php on line 1.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/GeneradorDePDFController.php(12): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\GeneradorDePDFController->generarPDF()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 19:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 19:20:47 --> Call to undefined function App\Controllers\generarPDF()
+in APPPATH/Controllers/FormularioIngresoDeTrabajoController.php on line 153.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\FormularioIngresoDeTrabajoController->guardar()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 19:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 19:45:15 --> Undefined variable: marca
+in APPPATH/Views/generarPDF.php on line 22.
+ 1 APPPATH/Views/generarPDF.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/FormularioIngresoDeTrabajoController.php(22): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\FormularioIngresoDeTrabajoController->generarPDF()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 19:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 19:49:17 --> Undefined variable: datosParaGuardar
+in APPPATH/Views/generarPDF.php on line 22.
+ 1 APPPATH/Views/generarPDF.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/FormularioIngresoDeTrabajoController.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\FormularioIngresoDeTrabajoController->guardar()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 19:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 19:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 20:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 20:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 20:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 20:06:55 --> Call to undefined function set_value()
+in APPPATH/Views/generarPDF.php on line 15.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/GeneradorDePDFController.php(12): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\GeneradorDePDFController->generarPDF()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 20:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 20:07:12 --> Call to undefined function set_value()
+in APPPATH/Views/generarPDF.php on line 15.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/GeneradorDePDFController.php(12): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\GeneradorDePDFController->generarPDF()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 20:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 20:19:21 --> Call to undefined function set_value()
+in APPPATH/Views/generarPDF.php on line 15.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/GeneradorDePDFController.php(12): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\GeneradorDePDFController->generarPDF()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 20:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 20:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 20:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 20:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 20:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 20:27:54 --> Call to undefined function set_value()
+in APPPATH/Views/generarPDF.php on line 15.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/GeneradorDePDFController.php(12): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\GeneradorDePDFController->generarPDF()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 20:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 20:28:12 --> Call to undefined function set_value()
+in APPPATH/Views/generarPDF.php on line 15.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/GeneradorDePDFController.php(12): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\GeneradorDePDFController->generarPDF()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 20:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 20:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 20:48:14 --> CodeIgniter\View\View::main(): Failed opening required 'dompdf/autoload.inc.php' (include_path='.:/usr/share/php')
+in APPPATH/Views/generarPDF.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-09-21 20:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 20:48:39 --> Maximum function nesting level of '256' reached, aborting!
+in VENDORPATH/dompdf/dompdf/lib/Cpdf.php on line 601.
+ 1 VENDORPATH/dompdf/dompdf/lib/Cpdf.php(837): Dompdf\Cpdf->o_catalog()
+ 2 VENDORPATH/dompdf/dompdf/lib/Cpdf.php(3268): Dompdf\Cpdf->o_outlines()
+ 3 VENDORPATH/dompdf/dompdf/lib/Cpdf.php(403): Dompdf\Cpdf->newDocument()
+ 4 VENDORPATH/dompdf/dompdf/src/Adapter/CPDF.php(181): Dompdf\Cpdf->__construct()
+ 5 VENDORPATH/dompdf/dompdf/src/CanvasFactory.php(56): Dompdf\Adapter\CPDF->__construct()
+ 6 VENDORPATH/dompdf/dompdf/src/Dompdf.php(274): Dompdf\CanvasFactory::get_instance()
+ 7 APPPATH/Views/generarPDF.php(86): Dompdf\Dompdf->__construct()
+ 8 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+ 9 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+11 APPPATH/Views/generarPDF.php(87): view()
+12 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+13 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+15 APPPATH/Views/generarPDF.php(87): view()
+16 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+17 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+18 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+19 APPPATH/Views/generarPDF.php(87): view()
+20 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+21 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+22 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+23 APPPATH/Views/generarPDF.php(87): view()
+24 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+25 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+26 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+27 APPPATH/Views/generarPDF.php(87): view()
+28 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+29 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+30 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+31 APPPATH/Views/generarPDF.php(87): view()
+32 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+33 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+34 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+35 APPPATH/Views/generarPDF.php(87): view()
+36 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+37 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+38 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+39 APPPATH/Views/generarPDF.php(87): view()
+40 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+41 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+42 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+43 APPPATH/Views/generarPDF.php(87): view()
+44 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+45 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+46 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+47 APPPATH/Views/generarPDF.php(87): view()
+48 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+49 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+50 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+51 APPPATH/Views/generarPDF.php(87): view()
+52 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+53 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+54 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+55 APPPATH/Views/generarPDF.php(87): view()
+56 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+57 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+58 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+59 APPPATH/Views/generarPDF.php(87): view()
+60 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+61 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+62 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+63 APPPATH/Views/generarPDF.php(87): view()
+64 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+65 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+66 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+67 APPPATH/Views/generarPDF.php(87): view()
+68 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+69 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+70 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+71 APPPATH/Views/generarPDF.php(87): view()
+72 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+73 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+74 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+75 APPPATH/Views/generarPDF.php(87): view()
+76 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+77 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+78 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+79 APPPATH/Views/generarPDF.php(87): view()
+80 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+81 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+82 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+83 APPPATH/Views/generarPDF.php(87): view()
+84 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+85 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+86 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+87 APPPATH/Views/generarPDF.php(87): view()
+88 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+89 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+90 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+91 APPPATH/Views/generarPDF.php(87): view()
+92 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+93 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+94 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+95 APPPATH/Views/generarPDF.php(87): view()
+96 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+97 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+98 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+99 APPPATH/Views/generarPDF.php(87): view()
+100 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+101 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+102 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+103 APPPATH/Views/generarPDF.php(87): view()
+104 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+105 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+106 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+107 APPPATH/Views/generarPDF.php(87): view()
+108 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+109 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+110 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+111 APPPATH/Views/generarPDF.php(87): view()
+112 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+113 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+114 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+115 APPPATH/Views/generarPDF.php(87): view()
+116 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+117 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+118 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+119 APPPATH/Views/generarPDF.php(87): view()
+120 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+121 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+122 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+123 APPPATH/Views/generarPDF.php(87): view()
+124 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+125 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+126 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+127 APPPATH/Views/generarPDF.php(87): view()
+128 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+129 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+130 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+131 APPPATH/Views/generarPDF.php(87): view()
+132 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+133 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+134 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+135 APPPATH/Views/generarPDF.php(87): view()
+136 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+137 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+138 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+139 APPPATH/Views/generarPDF.php(87): view()
+140 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+141 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+142 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+143 APPPATH/Views/generarPDF.php(87): view()
+144 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+145 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+146 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+147 APPPATH/Views/generarPDF.php(87): view()
+148 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+149 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+150 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+151 APPPATH/Views/generarPDF.php(87): view()
+152 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+153 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+154 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+155 APPPATH/Views/generarPDF.php(87): view()
+156 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+157 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+158 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+159 APPPATH/Views/generarPDF.php(87): view()
+160 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+161 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+162 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+163 APPPATH/Views/generarPDF.php(87): view()
+164 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+165 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+166 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+167 APPPATH/Views/generarPDF.php(87): view()
+168 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+169 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+170 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+171 APPPATH/Views/generarPDF.php(87): view()
+172 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+173 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+174 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+175 APPPATH/Views/generarPDF.php(87): view()
+176 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+177 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+178 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+179 APPPATH/Views/generarPDF.php(87): view()
+180 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+181 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+182 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+183 APPPATH/Views/generarPDF.php(87): view()
+184 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+185 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+186 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+187 APPPATH/Views/generarPDF.php(87): view()
+188 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+189 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+190 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+191 APPPATH/Views/generarPDF.php(87): view()
+192 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+193 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+194 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+195 APPPATH/Views/generarPDF.php(87): view()
+196 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+197 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+198 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+199 APPPATH/Views/generarPDF.php(87): view()
+200 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+201 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+202 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+203 APPPATH/Views/generarPDF.php(87): view()
+204 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+205 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+206 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+207 APPPATH/Views/generarPDF.php(87): view()
+208 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+209 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+210 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+211 APPPATH/Views/generarPDF.php(87): view()
+212 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+213 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+214 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+215 APPPATH/Views/generarPDF.php(87): view()
+216 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+217 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+218 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+219 APPPATH/Views/generarPDF.php(87): view()
+220 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+221 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+222 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+223 APPPATH/Views/generarPDF.php(87): view()
+224 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+225 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+226 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+227 APPPATH/Views/generarPDF.php(87): view()
+228 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+229 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+230 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+231 APPPATH/Views/generarPDF.php(87): view()
+232 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+233 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+234 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+235 APPPATH/Views/generarPDF.php(87): view()
+236 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+237 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+238 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+239 APPPATH/Views/generarPDF.php(87): view()
+240 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+241 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+242 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+243 APPPATH/Views/generarPDF.php(87): view()
+244 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+245 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+246 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+247 APPPATH/Views/generarPDF.php(87): view()
+248 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+249 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+250 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+251 APPPATH/Controllers/FormularioIngresoDeTrabajoController.php(139): view()
+252 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\FormularioIngresoDeTrabajoController->guardar()
+253 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+254 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+255 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+256 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 20:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 20:49:14 --> Call to undefined function set_value()
+in APPPATH/Views/generarPDF.php on line 15.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/GeneradorDePDFController.php(12): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\GeneradorDePDFController->generarPDF()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 20:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 20:52:09 --> Maximum function nesting level of '256' reached, aborting!
+in VENDORPATH/dompdf/dompdf/lib/Cpdf.php on line 601.
+ 1 VENDORPATH/dompdf/dompdf/lib/Cpdf.php(837): Dompdf\Cpdf->o_catalog()
+ 2 VENDORPATH/dompdf/dompdf/lib/Cpdf.php(3268): Dompdf\Cpdf->o_outlines()
+ 3 VENDORPATH/dompdf/dompdf/lib/Cpdf.php(403): Dompdf\Cpdf->newDocument()
+ 4 VENDORPATH/dompdf/dompdf/src/Adapter/CPDF.php(181): Dompdf\Cpdf->__construct()
+ 5 VENDORPATH/dompdf/dompdf/src/CanvasFactory.php(56): Dompdf\Adapter\CPDF->__construct()
+ 6 VENDORPATH/dompdf/dompdf/src/Dompdf.php(274): Dompdf\CanvasFactory::get_instance()
+ 7 APPPATH/Views/generarPDF.php(85): Dompdf\Dompdf->__construct()
+ 8 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+ 9 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+11 APPPATH/Views/generarPDF.php(86): view()
+12 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+13 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+15 APPPATH/Views/generarPDF.php(86): view()
+16 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+17 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+18 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+19 APPPATH/Views/generarPDF.php(86): view()
+20 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+21 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+22 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+23 APPPATH/Views/generarPDF.php(86): view()
+24 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+25 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+26 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+27 APPPATH/Views/generarPDF.php(86): view()
+28 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+29 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+30 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+31 APPPATH/Views/generarPDF.php(86): view()
+32 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+33 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+34 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+35 APPPATH/Views/generarPDF.php(86): view()
+36 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+37 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+38 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+39 APPPATH/Views/generarPDF.php(86): view()
+40 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+41 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+42 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+43 APPPATH/Views/generarPDF.php(86): view()
+44 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+45 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+46 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+47 APPPATH/Views/generarPDF.php(86): view()
+48 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+49 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+50 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+51 APPPATH/Views/generarPDF.php(86): view()
+52 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+53 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+54 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+55 APPPATH/Views/generarPDF.php(86): view()
+56 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+57 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+58 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+59 APPPATH/Views/generarPDF.php(86): view()
+60 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+61 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+62 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+63 APPPATH/Views/generarPDF.php(86): view()
+64 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+65 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+66 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+67 APPPATH/Views/generarPDF.php(86): view()
+68 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+69 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+70 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+71 APPPATH/Views/generarPDF.php(86): view()
+72 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+73 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+74 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+75 APPPATH/Views/generarPDF.php(86): view()
+76 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+77 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+78 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+79 APPPATH/Views/generarPDF.php(86): view()
+80 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+81 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+82 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+83 APPPATH/Views/generarPDF.php(86): view()
+84 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+85 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+86 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+87 APPPATH/Views/generarPDF.php(86): view()
+88 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+89 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+90 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+91 APPPATH/Views/generarPDF.php(86): view()
+92 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+93 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+94 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+95 APPPATH/Views/generarPDF.php(86): view()
+96 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+97 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+98 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+99 APPPATH/Views/generarPDF.php(86): view()
+100 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+101 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+102 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+103 APPPATH/Views/generarPDF.php(86): view()
+104 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+105 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+106 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+107 APPPATH/Views/generarPDF.php(86): view()
+108 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+109 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+110 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+111 APPPATH/Views/generarPDF.php(86): view()
+112 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+113 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+114 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+115 APPPATH/Views/generarPDF.php(86): view()
+116 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+117 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+118 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+119 APPPATH/Views/generarPDF.php(86): view()
+120 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+121 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+122 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+123 APPPATH/Views/generarPDF.php(86): view()
+124 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+125 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+126 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+127 APPPATH/Views/generarPDF.php(86): view()
+128 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+129 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+130 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+131 APPPATH/Views/generarPDF.php(86): view()
+132 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+133 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+134 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+135 APPPATH/Views/generarPDF.php(86): view()
+136 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+137 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+138 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+139 APPPATH/Views/generarPDF.php(86): view()
+140 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+141 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+142 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+143 APPPATH/Views/generarPDF.php(86): view()
+144 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+145 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+146 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+147 APPPATH/Views/generarPDF.php(86): view()
+148 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+149 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+150 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+151 APPPATH/Views/generarPDF.php(86): view()
+152 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+153 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+154 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+155 APPPATH/Views/generarPDF.php(86): view()
+156 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+157 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+158 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+159 APPPATH/Views/generarPDF.php(86): view()
+160 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+161 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+162 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+163 APPPATH/Views/generarPDF.php(86): view()
+164 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+165 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+166 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+167 APPPATH/Views/generarPDF.php(86): view()
+168 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+169 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+170 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+171 APPPATH/Views/generarPDF.php(86): view()
+172 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+173 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+174 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+175 APPPATH/Views/generarPDF.php(86): view()
+176 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+177 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+178 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+179 APPPATH/Views/generarPDF.php(86): view()
+180 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+181 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+182 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+183 APPPATH/Views/generarPDF.php(86): view()
+184 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+185 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+186 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+187 APPPATH/Views/generarPDF.php(86): view()
+188 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+189 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+190 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+191 APPPATH/Views/generarPDF.php(86): view()
+192 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+193 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+194 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+195 APPPATH/Views/generarPDF.php(86): view()
+196 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+197 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+198 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+199 APPPATH/Views/generarPDF.php(86): view()
+200 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+201 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+202 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+203 APPPATH/Views/generarPDF.php(86): view()
+204 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+205 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+206 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+207 APPPATH/Views/generarPDF.php(86): view()
+208 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+209 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+210 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+211 APPPATH/Views/generarPDF.php(86): view()
+212 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+213 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+214 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+215 APPPATH/Views/generarPDF.php(86): view()
+216 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+217 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+218 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+219 APPPATH/Views/generarPDF.php(86): view()
+220 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+221 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+222 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+223 APPPATH/Views/generarPDF.php(86): view()
+224 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+225 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+226 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+227 APPPATH/Views/generarPDF.php(86): view()
+228 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+229 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+230 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+231 APPPATH/Views/generarPDF.php(86): view()
+232 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+233 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+234 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+235 APPPATH/Views/generarPDF.php(86): view()
+236 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+237 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+238 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+239 APPPATH/Views/generarPDF.php(86): view()
+240 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+241 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+242 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+243 APPPATH/Views/generarPDF.php(86): view()
+244 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+245 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+246 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+247 APPPATH/Views/generarPDF.php(86): view()
+248 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+249 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+250 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+251 APPPATH/Controllers/FormularioIngresoDeTrabajoController.php(139): view()
+252 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\FormularioIngresoDeTrabajoController->guardar()
+253 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+254 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+255 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+256 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 20:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 21:04:38 --> Invalid file: "<h1>GenerarPDF</h1>
+<label> RADAR ELECTRONICA</label>
+<div class="datosLocal form-group row">
+    <div form-group row">
+        <label>Moreno 286</label>
+        <div class="col-sm-10">
+            <label>Huinca Renanco</label>
+        </div>
+</div>
+
+<div class="form-group row">
+    <label for="aparato" class="col-sm-2 col-form-label">Aparato</label>
+    <div class="col-sm-10">
+        <label> tv </label>
+    </div>
+
+</div>
+<div class="form-group row">
+    <label for="marca" class="col-sm-2 col-form-label">Marca</label>
+    <div class="col-sm-10">
+        <label> lg <label
+    </div>
+
+</div>
+<div class="form-group row">
+    <label for="modelo" class="col-sm-2 col-form-label">Modelo</label>
+    <div class="col-sm-10">
+        <label> 33 </label>
+    </div>
+
+</div>
+<div class="form-group row">
+    <label for="accesorios" class="col-sm-2 col-form-label">Accesorios</label>
+    <div class="col-sm-10">
+        <label> remoto </label>
+    </div>
+
+</div>
+<div class="form-group row">
+    <label for="titular" class="col-sm-2 col-form-label">Titular</label>
+    <div class="col-sm-10">
+        <label> sdf </label>
+    </div>
+
+</div>
+<div class="form-group row">
+    <label for="domicilio" class="col-sm-2 col-form-label">Domicilio</label>
+    <div class="col-sm-10">
+        <label> italia 55 </label>
+    </div>
+
+</div>
+<div class="form-group row">
+    <label for="telefono" class="col-sm-2 col-form-label">Teléfono</label>
+    <div class="col-sm-10">
+        <label> 44444444 </label>
+    </div>
+
+</div>
+<div class="form-group row">
+    <label for="sintoma" class="col-sm-2 col-form-label">Síntoma</label>
+    <div class="col-sm-10">
+        <label> resfrio </label>
+    </div>
+</div>
+<div class="form-group row">
+    <label for="senia" class="col-sm-2 col-form-label">Seña</label>
+    <div class="col-sm-10">
+        <label> 2000 </label>
+    </div>
+</div>
+
+</div>
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+    <a type="submit" class="btn btn-primary btn-block " href="/generarPDF:$datosParaGuardar">Imprimir</a>
+
+</div>
+
+.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/generarPDF.php(86): view()
+ 4 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/FormularioIngresoDeTrabajoController.php(139): view()
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\FormularioIngresoDeTrabajoController->guardar()
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 21:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 21:06:02 --> Invalid file: "<pre class='xdebug-var-dump' dir='ltr'>
+<small>/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php:2:</small><small>string</small> <font color='#cc0000'>'lg'</font> <i>(length=2)</i>
+</pre><h1>GenerarPDF</h1>
+<label> RADAR ELECTRONICA</label>
+<div class="datosLocal form-group row">
+    <div form-group row">
+        <label>Moreno 286</label>
+        <div class="col-sm-10">
+            <label>Huinca Renanco</label>
+        </div>
+</div>
+
+<div class="form-group row">
+    <label for="aparato" class="col-sm-2 col-form-label">Aparato</label>
+    <div class="col-sm-10">
+        <label> tv </label>
+    </div>
+
+</div>
+<div class="form-group row">
+    <label for="marca" class="col-sm-2 col-form-label">Marca</label>
+    <div class="col-sm-10">
+        <label> lg <label
+    </div>
+
+</div>
+<div class="form-group row">
+    <label for="modelo" class="col-sm-2 col-form-label">Modelo</label>
+    <div class="col-sm-10">
+        <label> 33 </label>
+    </div>
+
+</div>
+<div class="form-group row">
+    <label for="accesorios" class="col-sm-2 col-form-label">Accesorios</label>
+    <div class="col-sm-10">
+        <label> remoto </label>
+    </div>
+
+</div>
+<div class="form-group row">
+    <label for="titular" class="col-sm-2 col-form-label">Titular</label>
+    <div class="col-sm-10">
+        <label> sdf </label>
+    </div>
+
+</div>
+<div class="form-group row">
+    <label for="domicilio" class="col-sm-2 col-form-label">Domicilio</label>
+    <div class="col-sm-10">
+        <label> italia 55 </label>
+    </div>
+
+</div>
+<div class="form-group row">
+    <label for="telefono" class="col-sm-2 col-form-label">Teléfono</label>
+    <div class="col-sm-10">
+        <label> 44444444 </label>
+    </div>
+
+</div>
+<div class="form-group row">
+    <label for="sintoma" class="col-sm-2 col-form-label">Síntoma</label>
+    <div class="col-sm-10">
+        <label> resfrio </label>
+    </div>
+</div>
+<div class="form-group row">
+    <label for="senia" class="col-sm-2 col-form-label">Seña</label>
+    <div class="col-sm-10">
+        <label> 2000 </label>
+    </div>
+</div>
+
+</div>
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+    <a type="submit" class="btn btn-primary btn-block " href="/generarPDF">Imprimir</a>
+
+</div>
+
+.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/generarPDF.php(87): view()
+ 4 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/FormularioIngresoDeTrabajoController.php(139): view()
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\FormularioIngresoDeTrabajoController->guardar()
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 21:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 21:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 21:07:34 --> Too few arguments to function App\Controllers\GeneradorDePDFController::generarPDF(), 0 passed in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH/Controllers/GeneradorDePDFController.php on line 7.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\GeneradorDePDFController->generarPDF()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 21:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 21:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 21:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 21:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 21:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 21:13:34 --> Too few arguments to function App\Controllers\GeneradorDePDFController::generarPDF(), 0 passed in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH/Controllers/GeneradorDePDFController.php on line 7.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\GeneradorDePDFController->generarPDF()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 21:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 21:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 21:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 21:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 21:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 21:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 21:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 21:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 22:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 22:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 22:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 22:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 22:13:25 --> Too few arguments to function App\Controllers\GeneradorDePDFController::generarPDF(), 0 passed in /home/yami/PhpstormProjects/radarElectronica/vendor/codeigniter4/framework/system/CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH/Controllers/GeneradorDePDFController.php on line 7.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\GeneradorDePDFController->generarPDF()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 22:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 22:15:11 --> Undefined variable: aparato
+in APPPATH/Views/generarPDF.php on line 2.
+ 1 APPPATH/Views/generarPDF.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/GeneradorDePDFController.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\GeneradorDePDFController->generarPDF()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 22:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 22:17:17 --> Maximum function nesting level of '256' reached, aborting!
+in VENDORPATH/dompdf/dompdf/lib/Cpdf.php on line 601.
+ 1 VENDORPATH/dompdf/dompdf/lib/Cpdf.php(837): Dompdf\Cpdf->o_catalog()
+ 2 VENDORPATH/dompdf/dompdf/lib/Cpdf.php(3268): Dompdf\Cpdf->o_outlines()
+ 3 VENDORPATH/dompdf/dompdf/lib/Cpdf.php(403): Dompdf\Cpdf->newDocument()
+ 4 VENDORPATH/dompdf/dompdf/src/Adapter/CPDF.php(181): Dompdf\Cpdf->__construct()
+ 5 VENDORPATH/dompdf/dompdf/src/CanvasFactory.php(56): Dompdf\Adapter\CPDF->__construct()
+ 6 VENDORPATH/dompdf/dompdf/src/Dompdf.php(274): Dompdf\CanvasFactory::get_instance()
+ 7 APPPATH/Views/generarPDF.php(79): Dompdf\Dompdf->__construct()
+ 8 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+ 9 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+11 APPPATH/Views/generarPDF.php(83): view()
+12 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+13 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+15 APPPATH/Views/generarPDF.php(83): view()
+16 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+17 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+18 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+19 APPPATH/Views/generarPDF.php(83): view()
+20 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+21 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+22 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+23 APPPATH/Views/generarPDF.php(83): view()
+24 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+25 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+26 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+27 APPPATH/Views/generarPDF.php(83): view()
+28 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+29 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+30 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+31 APPPATH/Views/generarPDF.php(83): view()
+32 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+33 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+34 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+35 APPPATH/Views/generarPDF.php(83): view()
+36 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+37 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+38 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+39 APPPATH/Views/generarPDF.php(83): view()
+40 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+41 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+42 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+43 APPPATH/Views/generarPDF.php(83): view()
+44 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+45 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+46 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+47 APPPATH/Views/generarPDF.php(83): view()
+48 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+49 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+50 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+51 APPPATH/Views/generarPDF.php(83): view()
+52 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+53 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+54 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+55 APPPATH/Views/generarPDF.php(83): view()
+56 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+57 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+58 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+59 APPPATH/Views/generarPDF.php(83): view()
+60 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+61 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+62 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+63 APPPATH/Views/generarPDF.php(83): view()
+64 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+65 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+66 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+67 APPPATH/Views/generarPDF.php(83): view()
+68 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+69 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+70 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+71 APPPATH/Views/generarPDF.php(83): view()
+72 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+73 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+74 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+75 APPPATH/Views/generarPDF.php(83): view()
+76 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+77 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+78 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+79 APPPATH/Views/generarPDF.php(83): view()
+80 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+81 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+82 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+83 APPPATH/Views/generarPDF.php(83): view()
+84 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+85 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+86 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+87 APPPATH/Views/generarPDF.php(83): view()
+88 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+89 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+90 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+91 APPPATH/Views/generarPDF.php(83): view()
+92 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+93 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+94 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+95 APPPATH/Views/generarPDF.php(83): view()
+96 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+97 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+98 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+99 APPPATH/Views/generarPDF.php(83): view()
+100 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+101 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+102 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+103 APPPATH/Views/generarPDF.php(83): view()
+104 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+105 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+106 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+107 APPPATH/Views/generarPDF.php(83): view()
+108 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+109 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+110 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+111 APPPATH/Views/generarPDF.php(83): view()
+112 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+113 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+114 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+115 APPPATH/Views/generarPDF.php(83): view()
+116 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+117 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+118 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+119 APPPATH/Views/generarPDF.php(83): view()
+120 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+121 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+122 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+123 APPPATH/Views/generarPDF.php(83): view()
+124 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+125 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+126 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+127 APPPATH/Views/generarPDF.php(83): view()
+128 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+129 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+130 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+131 APPPATH/Views/generarPDF.php(83): view()
+132 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+133 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+134 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+135 APPPATH/Views/generarPDF.php(83): view()
+136 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+137 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+138 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+139 APPPATH/Views/generarPDF.php(83): view()
+140 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+141 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+142 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+143 APPPATH/Views/generarPDF.php(83): view()
+144 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+145 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+146 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+147 APPPATH/Views/generarPDF.php(83): view()
+148 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+149 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+150 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+151 APPPATH/Views/generarPDF.php(83): view()
+152 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+153 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+154 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+155 APPPATH/Views/generarPDF.php(83): view()
+156 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+157 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+158 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+159 APPPATH/Views/generarPDF.php(83): view()
+160 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+161 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+162 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+163 APPPATH/Views/generarPDF.php(83): view()
+164 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+165 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+166 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+167 APPPATH/Views/generarPDF.php(83): view()
+168 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+169 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+170 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+171 APPPATH/Views/generarPDF.php(83): view()
+172 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+173 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+174 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+175 APPPATH/Views/generarPDF.php(83): view()
+176 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+177 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+178 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+179 APPPATH/Views/generarPDF.php(83): view()
+180 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+181 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+182 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+183 APPPATH/Views/generarPDF.php(83): view()
+184 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+185 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+186 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+187 APPPATH/Views/generarPDF.php(83): view()
+188 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+189 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+190 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+191 APPPATH/Views/generarPDF.php(83): view()
+192 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+193 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+194 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+195 APPPATH/Views/generarPDF.php(83): view()
+196 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+197 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+198 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+199 APPPATH/Views/generarPDF.php(83): view()
+200 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+201 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+202 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+203 APPPATH/Views/generarPDF.php(83): view()
+204 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+205 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+206 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+207 APPPATH/Views/generarPDF.php(83): view()
+208 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+209 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+210 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+211 APPPATH/Views/generarPDF.php(83): view()
+212 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+213 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+214 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+215 APPPATH/Views/generarPDF.php(83): view()
+216 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+217 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+218 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+219 APPPATH/Views/generarPDF.php(83): view()
+220 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+221 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+222 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+223 APPPATH/Views/generarPDF.php(83): view()
+224 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+225 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+226 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+227 APPPATH/Views/generarPDF.php(83): view()
+228 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+229 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+230 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+231 APPPATH/Views/generarPDF.php(83): view()
+232 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+233 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+234 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+235 APPPATH/Views/generarPDF.php(83): view()
+236 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+237 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+238 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+239 APPPATH/Views/generarPDF.php(83): view()
+240 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+241 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+242 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+243 APPPATH/Views/generarPDF.php(83): view()
+244 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+245 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+246 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+247 APPPATH/Views/generarPDF.php(83): view()
+248 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+249 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+250 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+251 APPPATH/Controllers/FormularioIngresoDeTrabajoController.php(138): view()
+252 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\FormularioIngresoDeTrabajoController->guardar()
+253 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+254 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+255 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+256 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 22:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 22:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 22:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 22:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 22:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 22:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 22:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 22:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 22:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 22:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 23:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 23:45:46 --> CodeIgniter\View\View::main(): Failed opening required 'dompdf/autoload.inc.php' (include_path='.:/usr/share/php')
+in APPPATH/Views/generarPDF.php on line 79.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-09-21 23:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 23:46:55 --> CodeIgniter\View\View::main(): Failed opening required 'dompdf/autoload.inc.php' (include_path='.:/usr/share/php')
+in APPPATH/Views/generarPDF.php on line 79.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-09-21 23:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 23:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 23:49:48 --> file_get_contents(generarPDF.html): failed to open stream: No such file or directory
+in APPPATH/Views/generarPDF.php on line 79.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/generarPDF.php(79): file_get_contents()
+ 3 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/FormularioIngresoDeTrabajoController.php(138): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\FormularioIngresoDeTrabajoController->guardar()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 23:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 23:50:15 --> file_get_contents(generarPDF.php): failed to open stream: No such file or directory
+in APPPATH/Views/generarPDF.php on line 79.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/generarPDF.php(79): file_get_contents()
+ 3 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/FormularioIngresoDeTrabajoController.php(138): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\FormularioIngresoDeTrabajoController->guardar()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
+INFO - 2023-09-21 23:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 23:50:58 --> file_get_contents(generarPDF.php): failed to open stream: No such file or directory
+in APPPATH/Views/generarPDF.php on line 79.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/generarPDF.php(79): file_get_contents()
+ 3 SYSTEMPATH/View/View.php(226): include('/home/yami/PhpstormProjects/radarElectronica/app/Views/generarPDF.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/FormularioIngresoDeTrabajoController.php(138): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\FormularioIngresoDeTrabajoController->guardar()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/yami/PhpstormProjects/radarElectronica/public/index.php')
